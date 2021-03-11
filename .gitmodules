@@ -4,3 +4,6 @@
 [submodule "pack/ultirequiem/start/fugitive"]
 	path = pack/ultirequiem/start/fugitive
 	url = https://github.com/tpope/vim-fugitive
+[submodule "pack/ultirequiem/start/nerdtree"]
+	path = pack/ultirequiem/start/nerdtree
+	url = https://github.com/preservim/nerdtree

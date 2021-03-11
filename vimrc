@@ -50,6 +50,5 @@ set shell=/bin/bash
 
 packloadall
 
-
 " Author and Maintainer:  Eliaz Bobadilla <eliaz.bobadilladev@gmail.com>
 " Git Repository: https://github.com/UltiRequiem/vimrc

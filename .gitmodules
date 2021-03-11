@@ -10,3 +10,6 @@
 [submodule "pack/ultirequiem/start/nerdtree-git-plugin"]
 	path = pack/ultirequiem/start/nerdtree-git-plugin
 	url = https://github.com/Xuyuanp/nerdtree-git-plugin
+[submodule "pack/ultirequiem/start/lightline"]
+	path = pack/ultirequiem/start/lightline
+	url = https://github.com/itchyny/lightline.vim

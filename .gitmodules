@@ -7,3 +7,6 @@
 [submodule "pack/ultirequiem/start/nerdtree"]
 	path = pack/ultirequiem/start/nerdtree
 	url = https://github.com/preservim/nerdtree
+[submodule "pack/ultirequiem/start/nerdtree-git-plugin"]
+	path = pack/ultirequiem/start/nerdtree-git-plugin
+	url = https://github.com/Xuyuanp/nerdtree-git-plugin

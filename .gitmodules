@@ -1,6 +1,6 @@
 [submodule "pack/ultirequiem/start/vim-go"]
 	path = pack/ultirequiem/start/vim-go
-	url = https://github.com/fatih/vim-go.git
+	url = https://github.com/fatih/vim-go
 [submodule "pack/ultirequiem/start/fugitive"]
 	path = pack/ultirequiem/start/fugitive
 	url = https://github.com/tpope/vim-fugitive
@@ -13,3 +13,6 @@
 [submodule "pack/ultirequiem/start/lightline"]
 	path = pack/ultirequiem/start/lightline
 	url = https://github.com/itchyny/lightline.vim
+[submodule "pack/ultirequiem/start/coc"]
+	path = pack/ultirequiem/start/coc
+	url = https://github.com/neoclide/coc.nvim

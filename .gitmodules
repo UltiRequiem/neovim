@@ -16,3 +16,6 @@
 [submodule "pack/ultirequiem/start/coc"]
 	path = pack/ultirequiem/start/coc
 	url = https://github.com/neoclide/coc.nvim
+[submodule "pack/ultirequiem/start/commentary"]
+	path = pack/ultirequiem/start/commentary
+	url = https://github.com/tpope/vim-commentary

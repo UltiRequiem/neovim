@@ -41,6 +41,9 @@ set autoindent " Autoindent always ON
 
 set noswapfile " Annoying
 set nobackup
+set nowritebackup
+
+set updatetime=300
 
 " Persist undo history between file editing sessions.
 set undofile

@@ -1,20 +1,20 @@
-"  _____ _             ____            _           _   
-" |_   _| |__   ___   / ___|___   ___ | | ___  ___| |_ 
+"  _____ _             ____            _           _
+" |_   _| |__   ___   / ___|___   ___ | | ___  ___| |_
 "   | | | '_ \ / _ \ | |   / _ \ / _ \| |/ _ \/ __| __|
-"   | | | | | |  __/ | |__| (_) | (_) | |  __/\__ \ |_ 
+"   | | | | | |  __/ | |__| (_) | (_) | |  __/\__ \ |_
 "   |_| |_| |_|\___|  \____\___/ \___/|_|\___||___/\__|
-                                                     
-" __   _(_)_ __ ___  _ __ ___ 
+
+" __   _(_)_ __ ___  _ __ ___
 " \ \ / / | '_ ` _ \| '__/ __|
-"  \ V /| | | | | | | | | (__ 
+"  \ V /| | | | | | | | | (__
 "   \_/ |_|_| |_| |_|_|  \___|
-                            
+
 " Move fast and efficiently!
 let mapleader = ' ' " Change it to how you feel most comfortable
 nmap <Leader>w :w<CR> " Fast Saving
 nmap <Leader>q :q<CR> " Exit
 nmap <Leader>qq :q!<CR> " Fast exit
-nmap <Leader>tt :source %<CR> "Reload 
+nmap <Leader>tt :source %<CR> "Reload
 
 map <C-N> :bnext<CR>
 map <C-P> :bprev<CR>

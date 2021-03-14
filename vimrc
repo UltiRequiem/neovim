@@ -26,10 +26,11 @@ set relativenumber number " Show line numbers
 syntax on
 set clipboard=unnamedplus
 set hidden
-" set nowrap " Don't wrap long lines
+set nowrap " Don't wrap long lines
 set showmatch " Higlight matching parentheses and brackets
 filetype indent plugin on
 
+set autowrite
 set incsearch
 set smartcase
 set noerrorbells

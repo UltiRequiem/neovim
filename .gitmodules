@@ -22,3 +22,9 @@
 [submodule "pack/ultirequiem/start/gruvbox"]
 	path = pack/ultirequiem/start/gruvbox
 	url = https://github.com/morhetz/gruvbox
+[submodule "pack/ultirequiem/start/vim-autoformat"]
+	path = pack/ultirequiem/start/vim-autoformat
+	url = https://github.com/Chiel92/vim-autoformat
+[submodule "pack/ultirequiem/start/coc-jedi"]
+	path = pack/ultirequiem/start/coc-jedi
+	url = https://github.com/pappasam/coc-jedi

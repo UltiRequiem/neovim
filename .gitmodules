@@ -19,3 +19,6 @@
 [submodule "pack/ultirequiem/start/commentary"]
 	path = pack/ultirequiem/start/commentary
 	url = https://github.com/tpope/vim-commentary
+[submodule "pack/ultirequiem/start/gruvbox"]
+	path = pack/ultirequiem/start/gruvbox
+	url = https://github.com/morhetz/gruvbox

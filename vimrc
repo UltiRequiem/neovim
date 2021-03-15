@@ -14,7 +14,7 @@ let mapleader = ' ' " Change it to how you feel most comfortable
 nmap <Leader>w :w<CR> " Fast Saving
 nmap <Leader>q :q<CR> " Exit
 nmap <Leader>qq :q!<CR> " Fast exit
-nmap <Leader>tt :source %<CR> "Reload
+nmap <Leader>tt :terminal<CR>
 
 map <C-N> :bnext<CR>
 map <C-P> :bprev<CR>

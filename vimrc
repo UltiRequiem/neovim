@@ -34,6 +34,7 @@ set autowrite
 set incsearch
 set smartcase
 set noerrorbells
+set splitright
 
 set nocompatible " Disable vi compatibility mode
 set history=1000 " Increase history size

@@ -1,2 +1,2 @@
-au BufWrite * :Autoformat
+" au BufWrite * :Autoformat
 noremap <F3> :Autoformat<CR>

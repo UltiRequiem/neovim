@@ -1,30 +1,30 @@
-[submodule "pack/ultirequiem/start/vim-go"]
-	path = pack/ultirequiem/start/vim-go
+[submodule "pack/laguages-support/start/vim-go"]
+	path = pack/laguages-support/start/vim-go
 	url = https://github.com/fatih/vim-go
-[submodule "pack/ultirequiem/start/fugitive"]
-	path = pack/ultirequiem/start/fugitive
+[submodule "pack/general/start/fugitive"]
+	path = pack/general/start/fugitive
 	url = https://github.com/tpope/vim-fugitive
-[submodule "pack/ultirequiem/start/nerdtree"]
-	path = pack/ultirequiem/start/nerdtree
+[submodule "pack/general/start/nerdtree"]
+	path = pack/general/start/nerdtree
 	url = https://github.com/preservim/nerdtree
-[submodule "pack/ultirequiem/start/nerdtree-git-plugin"]
-	path = pack/ultirequiem/start/nerdtree-git-plugin
+[submodule "pack/general/start/nerdtree-git-plugin"]
+	path = pack/general/start/nerdtree-git-plugin
 	url = https://github.com/Xuyuanp/nerdtree-git-plugin
-[submodule "pack/ultirequiem/start/lightline"]
-	path = pack/ultirequiem/start/lightline
+[submodule "pack/general/start/lightline"]
+	path = pack/general/start/lightline
 	url = https://github.com/itchyny/lightline.vim
-[submodule "pack/ultirequiem/start/coc"]
-	path = pack/ultirequiem/start/coc
+[submodule "pack/general/start/coc"]
+	path = pack/general/start/coc
 	url = https://github.com/neoclide/coc.nvim
-[submodule "pack/ultirequiem/start/commentary"]
-	path = pack/ultirequiem/start/commentary
+[submodule "pack/general/start/commentary"]
+	path = pack/general/start/commentary
 	url = https://github.com/tpope/vim-commentary
-[submodule "pack/ultirequiem/start/gruvbox"]
-	path = pack/ultirequiem/start/gruvbox
+[submodule "pack/general/start/gruvbox"]
+	path = pack/general/start/gruvbox
 	url = https://github.com/morhetz/gruvbox
-[submodule "pack/ultirequiem/start/vim-autoformat"]
-	path = pack/ultirequiem/start/vim-autoformat
+[submodule "pack/general/start/vim-autoformat"]
+	path = pack/general/start/vim-autoformat
 	url = https://github.com/Chiel92/vim-autoformat
-[submodule "pack/ultirequiem/start/coc-jedi"]
-	path = pack/ultirequiem/start/coc-jedi
+[submodule "pack/laguages-support/start/coc-jedi"]
+	path = pack/laguages-support/start/coc-jedi
 	url = https://github.com/pappasam/coc-jedi

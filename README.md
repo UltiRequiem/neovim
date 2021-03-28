@@ -18,6 +18,8 @@
     - [nerdtree](https://github.com/preservim/nerdtree/tree/f63fb6984f9cd07cf723c3e2e20f6ccc0aad48c2)
     - [nerdtree-git-plugin](https://github.com/Xuyuanp/nerdtree-git-plugin/tree/5fa0e3e1487b17f8a23fc2674ebde5f55ce6a816)
     - [vim-commentary](https://github.com/tpope/vim-commentary/tree/f8238d70f873969fb41bf6a6b07ca63a4c0b82b1)
+- HTML:
+    - [emmet-vim](https://github.com/mattn/emmet-vim/tree/1f5daf6810d205844c039a4c9efa89317e62259d)
 - Python:
     - [coc-jedi](https://github.com/pappasam/coc-jedi/tree/97b01763aa21051786aba04f41ffe97a4ff0fae9)
     - [coc-pyright](https://github.com/fannheyward/coc-pyright)
@@ -25,4 +27,4 @@
     - [vim-go](https://github.com/fatih/vim-go/tree/95c79dcdcbc7e8e9165fa7f4a6bf17c08a6bab05)
    - [coc-go](https://github.com/josa42/coc-go)
 
-### The latest version installation instructions are [here](https://github.com/UltiRequiem/vimrc/releases/latest)
+The installation instructions for the latest version are [here](https://github.com/UltiRequiem/vimrc/releases/latest).

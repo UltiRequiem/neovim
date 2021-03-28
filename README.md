@@ -25,7 +25,4 @@
     - [vim-go](https://github.com/fatih/vim-go/tree/95c79dcdcbc7e8e9165fa7f4a6bf17c08a6bab05)
    - [coc-go](https://github.com/josa42/coc-go)
 
-## Install the 1.0.0 version by:
-```bash
-curl https://gist.githubusercontent.com/UltiRequiem/cee82758878db08b2f14355ca7f6611b/raw/befe7b6bdf914f8c0fe3f88dcbbcf3afe45557db/install_vim_v1.sh | bash
-```
+### The latest version installation instructions are [here](https://github.com/UltiRequiem/vimrc/releases/latest)

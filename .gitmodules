@@ -28,3 +28,6 @@
 [submodule "pack/laguages-support/start/coc-jedi"]
 	path = pack/laguages-support/start/coc-jedi
 	url = https://github.com/pappasam/coc-jedi
+[submodule "pack/laguages-support/start/emmet-vim"]
+	path = pack/laguages-support/start/emmet-vim
+	url = https://github.com/mattn/emmet-vim

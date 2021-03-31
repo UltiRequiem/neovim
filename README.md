@@ -5,7 +5,7 @@
 - **Autoformat and Autocompletion** for code
 - Support **host language servers**
 - Cool **Gruvbox**  theme
-- Cool and **lightweight** Status line
+- **Lightweight** Status line
 - A **tree explorer**
 ### Plugins:
 - General use:

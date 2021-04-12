@@ -28,6 +28,7 @@ set clipboard=unnamedplus
 set hidden
 set nowrap " Don't wrap long lines
 set showmatch " Higlight matching parentheses and brackets
+set paste 
 filetype indent plugin on
 
 set autowrite

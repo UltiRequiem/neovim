@@ -31,3 +31,6 @@
 [submodule "pack/laguages-support/start/emmet-vim"]
 	path = pack/laguages-support/start/emmet-vim
 	url = https://github.com/mattn/emmet-vim
+[submodule "pack/general/start/ale"]
+	path = pack/general/start/ale
+	url = https://github.com/dense-analysis/ale

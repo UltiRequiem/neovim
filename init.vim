@@ -1,3 +1,11 @@
+let mapleader = ' '
+nmap <Leader>w :w<CR> " Fast Saving
+nmap <Leader>q :q<CR> " Exit
+nmap <Leader>qq :q!<CR> " Fast exit
+
+map <C-N> :bnext<CR>
+map <C-P> :bprev<CR>
+
 " Disable Vi defaults.
 set nocompatible
 " Set utf-8 encoding
@@ -114,11 +122,14 @@ map w: :w
 
 "Disable writebackup because coc.nvim have issues with it
 set nowritebackup
+set noswapfile
 
 "Reduce updatetime from 4000 to 300 to avoid issues with coc.nvim
 set updatetime=300
 
 "Auto reload if file was changed somewhere else (for autoread)
 au CursorHold * checktime
+
+packloadall
 
 set shell=/usr/bin/zsh

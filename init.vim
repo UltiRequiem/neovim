@@ -1,3 +1,16 @@
+"  _____ _             ____            _           _
+" |_   _| |__   ___   / ___|___   ___ | | ___  ___| |_
+"   | | | '_ \ / _ \ | |   / _ \ / _ \| |/ _ \/ __| __|
+"   | | | | | |  __/ | |__| (_) | (_) | |  __/\__ \ |_
+"   |_| |_| |_|\___|  \____\___/ \___/|_|\___||___/\__|
+"  _       _ _         _           
+" (_)_ __ (_) |___   _(_)_ __ ___  
+" | | '_ \| | __\ \ / / | '_ ` _ \ 
+" | | | | | | |_ \ V /| | | | | | |
+" |_|_| |_|_|\__(_)_/ |_|_| |_| |_|
+
+
+" Move fast and efficiently!
 let mapleader = ' '
 nmap <Leader>w :w<CR> " Fast Saving
 nmap <Leader>q :q<CR> " Exit
@@ -133,3 +146,6 @@ au CursorHold * checktime
 packloadall
 
 set shell=/usr/bin/zsh
+
+" Author and Maintainer:  Eliaz Bobadilla <eliaz.bobadilladev@gmail.com>
+" Git Repository: https://github.com/UltiRequiem/neovim

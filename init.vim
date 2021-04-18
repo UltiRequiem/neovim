@@ -147,6 +147,7 @@ au CursorHold * checktime
 set undofile
 set undodir=$HOME/.config/nvim/undodir 
 
+colorscheme gotham
 packloadall
 
 set shell=/usr/bin/zsh

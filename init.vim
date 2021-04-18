@@ -143,6 +143,10 @@ set updatetime=300
 "Auto reload if file was changed somewhere else (for autoread)
 au CursorHold * checktime
 
+" Persist undo history between file editing sessions.
+set undofile
+set undodir=$HOME/.config/nvim/undodir 
+
 packloadall
 
 set shell=/usr/bin/zsh

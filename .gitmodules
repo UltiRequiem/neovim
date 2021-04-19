@@ -1,3 +1,24 @@
 [submodule "pack/general/start/coc.nvim"]
 	path = pack/general/start/coc.nvim
 	url = https://github.com/neoclide/coc.nvim
+[submodule "pack/aesthetic/start/vim-gotham"]
+	path = pack/aesthetic/start/vim-gotham
+	url = https://github.com/whatyouhide/vim-gotham
+[submodule "pack/aesthetic/start/vim-airline"]
+	path = pack/aesthetic/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule "pack/aesthetic/start/vim-airline-themes"]
+	path = pack/aesthetic/start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-arline-themes
+[submodule "pack/aesthetic/start/vim-devicons"]
+	path = pack/aesthetic/start/vim-devicons
+	url = https://github.com/ryanoasis/vim-devicons
+[submodule "pack/general/start/ctrlp.vim"]
+	path = pack/general/start/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim
+[submodule "pack/general/start/vim-gitgutter"]
+	path = pack/general/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+[submodule "pack/general/start/nerdtree"]
+	path = pack/general/start/nerdtree
+	url = https://github.com/preservim/nerdtree

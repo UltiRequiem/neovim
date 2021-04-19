@@ -17,7 +17,7 @@ nmap <Leader>q :q<CR> " Exit
 nmap <Leader>qq :q!<CR> " Fast exit
 
 map <C-N> :bnext<CR>
-map <C-P> :bprev<CR>
+map <C-M> :bprev<CR>
 
 " Disable Vi defaults.
 set nocompatible
@@ -34,6 +34,8 @@ set laststatus=2
 " Show the line and column number of the cursor position.
 set ruler
 set wildmenu
+set spelllang=en_us
+
 
 if !&scrolloff
   set scrolloff=1
@@ -146,6 +148,13 @@ au CursorHold * checktime
 " Persist undo history between file editing sessions.
 set undofile
 set undodir=$HOME/.config/nvim/undodir 
+
+set guifont=Fira\ Code:h12
+
+let g:airline_theme='fruit_punch'
+let NERDTreeQuitOpen=1
+let g:NERDTreeMinimalUI=1
+nmap <F2> :NERDTreeToggle<CR>
 
 colorscheme gotham
 packloadall

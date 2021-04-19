@@ -32,3 +32,9 @@
 [submodule "pack/general/start/vim-fugitive"]
 	path = pack/general/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
+[submodule "pack/aesthetic/start/vim-nerdtree-syntax-highlight"]
+	path = pack/aesthetic/start/vim-nerdtree-syntax-highlight
+	url = https://github.com/tiagofumo/vim-nerdtree-syntax-highlight
+[submodule "pack/aesthetic/start/papercolor-theme"]
+	path = pack/aesthetic/start/papercolor-theme
+	url = https://github.com/NLKNguyen/papercolor-theme

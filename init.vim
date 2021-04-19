@@ -20,7 +20,10 @@ map <C-N> :bnext<CR>
 map <C-M> :bprev<CR>
 
 " Disable Vi defaults.
-set nocompatible
+if &compatible
+  " `:set nocompatible` has many side effects. Therefore this should be done only when 'compatible' is set.
+  set nocompatible
+endif
 " Set utf-8 encoding
 set encoding=utf-8
 "Show line numbers on the sidebar
@@ -147,19 +150,21 @@ au CursorHold * checktime
 
 " Persist undo history between file editing sessions.
 set undofile
-set undodir=$HOME/.config/nvim/undodir 
+if has('nvim')
+   set undodir=$HOME/.config/nvim/undodir 
+elseif has('vim')
+   set undodir=~/.vim/undodir
+endif
+ 
 
 set guifont=Fira\ Code:h12
 
-let g:airline_theme='fruit_punch'
-let NERDTreeQuitOpen=1
-let g:NERDTreeMinimalUI=1
-nmap <F2> :NERDTreeToggle<CR>
-
-colorscheme gotham
+set background=dark
+colorscheme PaperColor
 packloadall
+runtime! plugins/*.vim
 
 set shell=/usr/bin/zsh
 
 " Author and Maintainer:  Eliaz Bobadilla <eliaz.bobadilladev@gmail.com>
-" Git Repository: https://github.com/UltiRequiem/neovim
+" Git Repository: https://github.com/UltiRequiem/UltiVim

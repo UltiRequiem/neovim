@@ -160,7 +160,7 @@ endif
 set guifont=Fira\ Code:h12
 
 set background=dark
-colorscheme PaperColor
+colorscheme gotham
 packloadall
 runtime! plugins/*.vim
 

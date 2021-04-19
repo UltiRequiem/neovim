@@ -9,7 +9,7 @@
 	url = https://github.com/vim-airline/vim-airline
 [submodule "pack/aesthetic/start/vim-airline-themes"]
 	path = pack/aesthetic/start/vim-airline-themes
-	url = https://github.com/vim-airline/vim-arline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
 [submodule "pack/aesthetic/start/vim-devicons"]
 	path = pack/aesthetic/start/vim-devicons
 	url = https://github.com/ryanoasis/vim-devicons
@@ -24,7 +24,7 @@
 	url = https://github.com/preservim/nerdtree
 [submodule "pack/language-support/start/vim-go"]
 	path = pack/language-support/start/vim-go
-	url = https://github.com/preservim/nerdtree
+	url = https://github.com/fatih/vim-go
 	
 [submodule "pack/general/start/ultisnips"]
 	path = pack/general/start/ultisnips

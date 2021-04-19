@@ -38,3 +38,6 @@
 [submodule "pack/aesthetic/start/papercolor-theme"]
 	path = pack/aesthetic/start/papercolor-theme
 	url = https://github.com/NLKNguyen/papercolor-theme
+[submodule "pack/general/start/auto-pairs"]
+	path = pack/general/start/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs

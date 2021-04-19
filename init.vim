@@ -155,12 +155,12 @@ if has('nvim')
 elseif has('vim')
    set undodir=~/.vim/undodir
 endif
- 
-
-set guifont=Fira\ Code:h12
 
 set background=dark
 colorscheme gotham
+
+set guifont=Fira\ Code:h12
+
 packloadall
 runtime! plugins/*.vim
 

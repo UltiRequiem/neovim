@@ -25,7 +25,7 @@
          ]
       },
       "python3":{
-         "command":"python3",
+         "command":"python3.9",
          "args":[
             "-mpyls",
             "-vv",

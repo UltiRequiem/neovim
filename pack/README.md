@@ -4,6 +4,8 @@ All plugins are managed in this directory, using [vim's internal package manager
 ### General
 - [coc.nvim](https://github.com/neoclide/coc.nvim)
 - [ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim)
+- [auto-pairs](https://github.com/jiangmiao/auto-pairs)
+- [autoformat](https://github.com/Chiel92/vim-autoformat)
 - [NerdTree](https://github.com/preservim/nerdtree)
 - [Fugitive](https://github.com/tpope/vim-fugitive)
 - [GitGutter](https://github.com/airblade/vim-gitgutter)

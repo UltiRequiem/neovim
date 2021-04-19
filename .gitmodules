@@ -41,3 +41,6 @@
 [submodule "pack/general/start/auto-pairs"]
 	path = pack/general/start/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs
+[submodule "pack/general/start/vim-autoformat"]
+	path = pack/general/start/vim-autoformat
+	url = https://github.com/Chiel92/vim-autoformat

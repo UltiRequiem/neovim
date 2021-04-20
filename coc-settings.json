@@ -6,6 +6,8 @@
    "diagnostic.enable":true,
    "diagnostic.checkCurrentLine":true,
    "suggest.floatEnable":false,
+   "snippets.autoTrigger":true,
+   "snippets.userSnippetsDirectory": "~/.config/nvim/snippets",
    
    "languageserver":{
       "go":{

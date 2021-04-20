@@ -1,3 +1,3 @@
 if has('ruby')
-	let g:ruby_host_prog='/bin/ruby'
+	let g:ruby_host_prog='usr/bin/ruby'
 endif

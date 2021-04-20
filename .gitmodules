@@ -25,10 +25,6 @@
 [submodule "pack/language-support/start/vim-go"]
 	path = pack/language-support/start/vim-go
 	url = https://github.com/fatih/vim-go
-	
-[submodule "pack/general/start/ultisnips"]
-	path = pack/general/start/ultisnips
-	url = https://github.com/SirVer/ultisnips
 [submodule "pack/general/start/vim-fugitive"]
 	path = pack/general/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive

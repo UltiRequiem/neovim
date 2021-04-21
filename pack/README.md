@@ -1,5 +1,7 @@
 # Plugins
-All plugins are managed in this directory, using [vim's internal package manager](https://youtu.be/XIxsD7l4zww).
+Almost all plugins are managed in this directory, using [vim's internal package manager](https://youtu.be/XIxsD7l4zww).
+ The coc.nvim extensions are handled separately, since although you can install them as normal plugins, you lose advantages such 
+as auto updates.
 
 ### General
 - [coc.nvim](https://github.com/neoclide/coc.nvim):

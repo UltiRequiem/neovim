@@ -117,35 +117,35 @@ set smartcase
 " Use dash as word separator.
 set iskeyword+=-
 
-"Disable output, vcs, archive, rails, temp and backup files.
+" Disable output, vcs, archive, rails, temp and backup files.
 set wildignore+=*.o,*.out,*.obj,.git,*.rbc,*.rbo,*.class,.svn,*.gem
 set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz
 set wildignore+=*/vendor/gems/*,*/vendor/cache/*,*/.bundle/*,*/.sass-cache/*
 set wildignore+=*.swp,*~,._*
 
-"Set window title by default.
+" Set window title by default.
 set title
 
-"Always focus on splited window.
+" Always focus on splited window.
 set splitright
 set splitbelow
 
-"Allow for easy copying and pasting
+" Allow for easy copying and pasting
 vnoremap <silent> y y`]
 nnoremap <silent> p p`]
 
-"Prevent common mistake of pressing q: instead :q
+" Prevent common mistake of pressing q: instead :q
 map q: :q
 map w: :w
 
-"Disable writebackup because coc.nvim have issues with it
+" Disable writebackup because coc.nvim have issues with it
 set nowritebackup
 set noswapfile
 
-"Reduce updatetime from 4000 to 300 to avoid issues with coc.nvim
+" Reduce updatetime from 4000 to 300 to avoid issues with coc.nvim
 set updatetime=300
 
-"Auto reload if file was changed somewhere else (for autoread)
+" Auto reload if file was changed somewhere else (for autoread)
 au CursorHold * checktime
 
 " Persist undo history between file editing sessions.

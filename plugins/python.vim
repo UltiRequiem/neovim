@@ -9,4 +9,5 @@ endif
 if has('python')
 	let g:python_host_prog = '/bin/python2.7'
 	nnoremap <Leader>r2 :!python2.7 %<CR>
+	let g:loaded_python_provider = 0
 endif

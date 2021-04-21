@@ -5,6 +5,7 @@ All plugins are managed in this directory, using [vim's internal package manager
 - [coc.nvim](https://github.com/neoclide/coc.nvim)
 - [ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim)
 - [NerdTree](https://github.com/preservim/nerdtree)
+- [Fugitive](https://github.com/tpope/vim-fugitive)
 - [GitGutter](https://github.com/airblade/vim-gitgutter)
 
 ### Aesthetic 

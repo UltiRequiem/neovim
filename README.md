@@ -112,7 +112,7 @@ Git Stuff:
 | <kbd>space</kbd><kbd>gu</kbd> | n    | Gist Update |
 | <kbd>space</kbd><kbd>gs</kbd> | n    | Gist Search |
 
-Specif Language Stuff
+Specif Language Stuff:
 | Mapping                       | Mode | Actions                               |
 |:------------------------------|:-----|:--------------------------------------|
 | <kbd>space</kbd><kbd>gr</kbd> | n    | Go Run current file|

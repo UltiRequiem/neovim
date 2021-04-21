@@ -89,8 +89,14 @@ $HOME/.config/nvim
 ```
 
 ## Mappings
-
-TODO
+Leader key: <kbd>space</kbd>  
+| Mapping                       | Mode | Actions                               |
+|:------------------------------|:-----|:--------------------------------------|
+| <kbd>space</kbd><kbd>w</kbd>  | n    | Save current buffer |
+| <kbd>space</kbd><kbd>q</kbd>  | n    | Close current buffer |
+| <kbd>space</kbd><kbd>qq</kbd> | n    | Quickly Close current buffer |
+| <kbd>ctrl</kbd><kbd>n</kbd>   | n    | Jump to next buffer |
+| <kbd>ctrl</kbd><kbd>m</kbd>   | n    | Jump to previous buffer |
 
 ## License
 

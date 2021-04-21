@@ -8,12 +8,9 @@
 
 - [Introduction](#introduction)
 - [Requirements](#requirements)
-  - [System](#system)
-  - [NeoVim](#neovim)
-  - [Nodejs](#nodejs)
-- [Installation](#istallation)
+- [Installation](#installation)
 - [Features](#features)
-  - [Suported Lenguages](#suported-lenguages)
+  - [Suported Lenguages](#suported-languages)
   - [LSP](#lsp)
   - [Git Integration](#git-integration)
   - [Navigation](#navigation)
@@ -90,13 +87,29 @@ $HOME/.config/nvim
 
 ## Mappings
 Leader key: <kbd>space</kbd>  
+
+General Stuff:
 | Mapping                       | Mode | Actions                               |
 |:------------------------------|:-----|:--------------------------------------|
-| <kbd>space</kbd><kbd>w</kbd>  | n    | Save current buffer |
-| <kbd>space</kbd><kbd>q</kbd>  | n    | Close current buffer |
-| <kbd>space</kbd><kbd>qq</kbd> | n    | Quickly Close current buffer |
-| <kbd>ctrl</kbd><kbd>n</kbd>   | n    | Jump to next buffer |
-| <kbd>ctrl</kbd><kbd>m</kbd>   | n    | Jump to previous buffer |
+| <kbd>space</kbd><kbd>w</kbd>  | n  | Save current buffer |
+| <kbd>space</kbd><kbd>q</kbd>  | n  | Close current buffer |
+| <kbd>space</kbd><kbd>qq</kbd> | n  | Quickly Close current buffer |
+| <kbd>ctrl</kbd><kbd>n</kbd>   | n  | Jump to next buffer |
+| <kbd>ctrl</kbd><kbd>m</kbd>   | n  | Jump to previous buffer |
+| <kbd>space</kbd><kbd>dd</kbd> | n  | Jump to Definition |
+| <kbd>space</kbd><kbd>dr</kbd> | n  | Jump to References |
+| <kbd>space</kbd><kbd>dj</kbd> | n  | Jump to Implementation |
+
+Git Stuff:
+| Mapping                       | Mode | Actions                               |
+|:------------------------------|:-----|:--------------------------------------|
+| <kbd>space</kbd><kbd>gg</kbd>  | n    | Git add . |
+| <kbd>space</kbd><kbd>gc</kbd>  | n    | Git commit -m "" |
+| <kbd>space</kbd><kbd>gp</kbd> | n    | Git Push |
+| <kbd>space</kbd><kbd>gr</kbd> | n    | Gist Creat |
+| <kbd>space</kbd><kbd>gu</kbd> | n    | Gist Update |
+| <kbd>space</kbd><kbd>gs</kbd> | n    | Gist Search |
+
 
 ## License
 

@@ -99,17 +99,26 @@ General Stuff:
 | <kbd>space</kbd><kbd>dd</kbd> | n  | Jump to Definition |
 | <kbd>space</kbd><kbd>dr</kbd> | n  | Jump to References |
 | <kbd>space</kbd><kbd>dj</kbd> | n  | Jump to Implementation |
+| <kbd>ctrl</kbd><kbd>p</kbd>   | n  | Search files |
+| <kbd>F2</kbd>                 | n  | NerdTree |
 
 Git Stuff:
 | Mapping                       | Mode | Actions                               |
 |:------------------------------|:-----|:--------------------------------------|
-| <kbd>space</kbd><kbd>gg</kbd>  | n    | Git add . |
-| <kbd>space</kbd><kbd>gc</kbd>  | n    | Git commit -m "" |
+| <kbd>space</kbd><kbd>gg</kbd> | n    | Git add . |
+| <kbd>space</kbd><kbd>gc</kbd> | n    | Git commit -m "" |
 | <kbd>space</kbd><kbd>gp</kbd> | n    | Git Push |
-| <kbd>space</kbd><kbd>gr</kbd> | n    | Gist Creat |
+| <kbd>space</kbd><kbd>ge</kbd> | n    | Gist Creat |
 | <kbd>space</kbd><kbd>gu</kbd> | n    | Gist Update |
 | <kbd>space</kbd><kbd>gs</kbd> | n    | Gist Search |
 
+Specif Language Stuff
+| Mapping                       | Mode | Actions                               |
+|:------------------------------|:-----|:--------------------------------------|
+| <kbd>space</kbd><kbd>gr</kbd> | n    | Go Run current file|
+| <kbd>space</kbd><kbd>gd</kbd> | n    | Go jump to Documentation|
+| <kbd>space</kbd><kbd>rp</kbd> | n    | Python Run current file|
+| <kbd>space</kbd><kbd>nd</kbd> | n    | Node Run current file|
 
 ## License
 

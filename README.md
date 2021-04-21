@@ -68,7 +68,7 @@ Git Integration with plugins like [Fugitive](https://github.com/tpope/vim-fugiti
 
 ### All Plugins
 
-You can see a list with all the plugins [here](./pack/README.md)
+You can see a list with all the plugins [here](./pack/README.md).
 
 ## Structure of this configuration:
 

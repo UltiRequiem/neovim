@@ -1,0 +1,30 @@
+[submodule "pack/language-support/start/vim-go"]
+	path = pack/language-support/start/vim-go
+	url = https://github.com/fatih/vim-go
+[submodule "pack/general/start/coc.nvim"]
+	path = pack/general/start/coc.nvim
+	url = https://github.com/neoclide/coc.nvim
+[submodule "pack/general/start/ctrlp.vim"]
+	path = pack/general/start/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim
+[submodule "pack/general/start/nerdtree"]
+	path = pack/general/start/nerdtree
+	url = https://github.com/preservim/nerdtree
+[submodule "pack/aesthetic/start/vim-nerdtree-syntax-highlight"]
+	path = pack/aesthetic/start/vim-nerdtree-syntax-highlight
+	url = https://github.com/tiagofumo/vim-nerdtree-syntax-highlight
+[submodule "pack/general/start/vim-fugitive"]
+	path = pack/general/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule "pack/general/start/vim-gitgutter"]
+	path = pack/general/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+[submodule "pack/aesthetic/start/vim-airline"]
+	path = pack/aesthetic/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule "pack/aesthetic/start/vim-airline-themes"]
+	path = pack/aesthetic/start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
+[submodule "pack/aesthetic/start/vim-devicons"]
+	path = pack/aesthetic/start/vim-devicons
+	url = https://github.com/ryanoasis/vim-devicons

@@ -1,4 +1,2 @@
-
 require('settings')
-
 require('keymappings')

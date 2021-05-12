@@ -7,9 +7,9 @@ end
 vim.g.mapleader = ' '
 
 -- Save and Close
-mapper("n","<Leader>w", ":w<CR>")
-mapper("n", "<Leader>qq", ":q<CR>")
-mapper("n", "<Leader>a", ":q!<CR>")
+mapper("n","w", ":w<CR>")
+mapper("n","q", ":q<CR>")
+mapper("n","<Leader>qq", ":q!<CR>")
 
 -- Others
 mapper("n","tt",":t.<CR>")

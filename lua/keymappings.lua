@@ -11,5 +11,9 @@ mapper("n","w", ":w<CR>")
 mapper("n","q", ":q<CR>")
 mapper("n","<Leader>qq", ":q!<CR>")
 
+-- nvim-tree
+mapper("n","e",":NvimTreeToggle<CR>")
+
+
 -- Others
 mapper("n","tt",":t.<CR>")

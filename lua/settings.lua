@@ -2,7 +2,11 @@ local global = vim.o
 local window = vim.wo
 local buffer = vim.bo
 
+global.termguicolors = true 
+global.t_Co = "256"
+global.splitright = true
 global.hidden = true
+global.guifont = "Fira Code:h12"
 
 -- window-local options
 window.number = true

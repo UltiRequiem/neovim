@@ -1,0 +1,18 @@
+[submodule "pack/general/start/dashboard-nvim"]
+	path = pack/general/start/dashboard-nvim
+	url = https://github.com/glepnir/dashboard-nvim
+[submodule "pack/general/start/nvim-web-devicons"]
+	path = pack/general/start/nvim-web-devicons
+	url = https://github.com/kyazdani42/nvim-web-devicons
+[submodule "pack/general/start/popup.nvim"]
+	path = pack/general/start/popup.nvim
+	url = https://github.com/nvim-lua/popup.nvim
+[submodule "pack/general/start/nvim-tree.lua"]
+	path = pack/general/start/nvim-tree.lua
+	url = https://github.com/kyazdani42/nvim-tree.lua
+[submodule "pack/general/start/plenary.nvim"]
+	path = pack/general/start/plenary.nvim
+	url = https://github.com/nvim-lua/plenary.nvim
+[submodule "pack/general/start/telescope.nvim"]
+	path = pack/general/start/telescope.nvim
+	url = https://github.com/nvim-telescope/telescope.nvim

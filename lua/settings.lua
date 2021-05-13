@@ -11,6 +11,7 @@ global.guifont = "Fira Code:h12"
 -- window-local options
 window.number = true
 window.wrap = true
+window.signcolumn="number"
 
 global.undofile = true
 global.undodir = "/tmp/"

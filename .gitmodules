@@ -19,3 +19,6 @@
 [submodule "pack/aesthetic/start/nvim-web-devicons"]
 	path = pack/aesthetic/start/nvim-web-devicons
 	url = https://github.com/kyazdani42/nvim-web-devicons
+[submodule "pack/general/start/coc.nvim"]
+	path = pack/general/start/coc.nvim
+	url = https://github.com/neoclide/coc.nvim

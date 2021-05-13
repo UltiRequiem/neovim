@@ -31,3 +31,6 @@
 [submodule "pack/aesthetic/start/lightline.vim"]
 	path = pack/aesthetic/start/lightline.vim
 	url = https://github.com/itchyny/lightline.vim
+[submodule "pack/general/start/gitgutter"]
+	path = pack/general/start/gitgutter
+	url = https://github.com/airblade/vim-gitgutter

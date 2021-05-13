@@ -1,2 +1,2 @@
 -- Cool Dasboard
-require('dashboard')
+require('plugins.dashboard')

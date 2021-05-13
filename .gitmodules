@@ -22,3 +22,12 @@
 [submodule "pack/general/start/coc.nvim"]
 	path = pack/general/start/coc.nvim
 	url = https://github.com/neoclide/coc.nvim
+[submodule "pack/aesthetic/start/galaxyline.nvim"]
+	path = pack/aesthetic/start/galaxyline.nvim
+	url = https://github.com/glepnir/galaxyline.nvim
+[submodule "pack/aesthetic/start/vim-arline"]
+	path = pack/aesthetic/start/vim-arline
+	url = https://github.com/vim-airline/vim-airline
+[submodule "pack/aesthetic/start/lightline.vim"]
+	path = pack/aesthetic/start/lightline.vim
+	url = https://github.com/itchyny/lightline.vim

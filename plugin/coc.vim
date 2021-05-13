@@ -23,5 +23,3 @@ nmap <leader>f  <Plug>(coc-format-selected)
 nmap <leader>qf  <Plug>(coc-fix-current)
 
 command! -nargs=0 Format :call CocAction('format')
-
-set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}

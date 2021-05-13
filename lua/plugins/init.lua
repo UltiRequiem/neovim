@@ -1,1 +1,2 @@
 -- Cool Dasboard
+require('dashboard')

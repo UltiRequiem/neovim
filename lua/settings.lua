@@ -1,22 +1,27 @@
-local global = vim.o
-local window = vim.wo
-local buffer = vim.bo
+local o = vim.o
+local wo = vim.wo
+local bo = vim.bo
 
-global.termguicolors = true 
-global.t_Co = "256"
-global.splitright = true
-global.hidden = true
-global.guifont = "Fira Code:h12"
+o.termguicolors = true
+o.t_Co = "256"
+o.splitright = true
+o.hidden = true
+o.guifont = "Fira Code:h12"
+o.lazyredraw = true
+o.synmaxcol = 200
 
 -- window-local options
-window.number = true
-window.wrap = true
-window.signcolumn="number"
+wo.number = true
+wo.wrap = false
+wo.signcolumn="number"
+o.undofile = true
+o.undodir = "/tmp/"
+o.backup = false
+o.swapfile = false
 
-global.undofile = true
-global.undodir = "/tmp/"
-global.backup = false 
-global.swapfile = false
+o.shell = "/bin/sh"
+
+vim.g.python_host_prog = "python3"
 
 -- Copy and paste between vim and everything else
-global.clipboard = "unnamedplus"
+o.clipboard = "unnamedplus"

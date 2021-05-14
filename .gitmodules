@@ -34,3 +34,9 @@
 [submodule "pack/general/start/gitgutter"]
 	path = pack/general/start/gitgutter
 	url = https://github.com/airblade/vim-gitgutter
+[submodule "pack/general/start/telescope-fzy-native.nvim"]
+	path = pack/general/start/telescope-fzy-native.nvim
+	url = https://github.com/nvim-telescope/telescope-fzy-native.nvim
+[submodule "pack/general/start/telescope-media-files.nvim"]
+	path = pack/general/start/telescope-media-files.nvim
+	url = https://github.com/nvim-telescope/telescope-media-files.nvim

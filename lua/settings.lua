@@ -23,7 +23,7 @@ vim.cmd [[silent! colorscheme  tokyonight]]
 
 o.shell = "/bin/sh"
 
-vim.g.python_host_prog = "python3"
+vim.g.python_host_prog = "python"
 
 -- Copy and paste between vim and everything else
 o.clipboard = "unnamedplus"

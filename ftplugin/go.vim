@@ -1,6 +1,6 @@
 nnoremap <Leader>gr :!go run %<CR>
-se isk+="
-se noet
-se sw=4
-se sts=4
-se ts=4
+setl isk+="
+setl noet
+setl sw=4
+setl sts=4
+setl ts=4

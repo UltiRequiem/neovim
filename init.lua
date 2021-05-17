@@ -4,4 +4,3 @@ require('settings')
 require('keymappings')
 -- Plugins
 require('plugins')
-

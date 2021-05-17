@@ -1,6 +1,6 @@
 nnoremap <Leader>rp :!python %<CR>
-se et       
-se ai      
-se ts=4
-se sts=4
-se sw=4
+setl et       
+setl ai      
+setl ts=4
+setl sts=4
+setl sw=4

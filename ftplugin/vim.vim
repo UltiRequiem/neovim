@@ -1,2 +1,2 @@
-se cc=120
-se isk+=:,#
+setl cc=120
+setl isk+=:,#

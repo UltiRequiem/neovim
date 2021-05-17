@@ -1,4 +1,4 @@
-se noet
-se sw=2
-se sts=2
-se ts=2
+setl noet
+setl sw=2
+setl sts=2
+setl ts=2

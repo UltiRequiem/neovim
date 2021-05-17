@@ -19,6 +19,8 @@ o.undodir = "/tmp/"
 o.backup = false
 o.swapfile = false
 
+vim.cmd [[silent! colorscheme  tokyonight]]
+
 o.shell = "/bin/sh"
 
 vim.g.python_host_prog = "python3"

@@ -21,6 +21,9 @@ mapper("n","tb",":Telescope buffers<CR>")
 -- nvim-tree
 mapper("n","e",":NvimTreeToggle<CR>")
 
-
 -- Duplitcate Line
 mapper("n","tt",":t.<CR>")
+
+mapper("n","<C-M>",":bnext<CR>")
+mapper("n","<C-N>",":bprev<CR>")
+

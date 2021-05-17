@@ -40,3 +40,12 @@
 [submodule "pack/general/start/telescope-media-files.nvim"]
 	path = pack/general/start/telescope-media-files.nvim
 	url = https://github.com/nvim-telescope/telescope-media-files.nvim
+[submodule "pack/aesthetic/start/tokyonight.nvim"]
+	path = pack/aesthetic/start/tokyonight.nvim
+	url = https://github.com/folke/tokyonight.nvim.git
+[submodule "pack/aesthetic/start/lualine.nvim"]
+	path = pack/aesthetic/start/lualine.nvim
+	url = https://github.com/hoob3rt/lualine.nvim
+[submodule "pack/aesthetic/start/nvim-bufferline.lua"]
+	path = pack/aesthetic/start/nvim-bufferline.lua
+	url = https://github.com/akinsho/nvim-bufferline.lua

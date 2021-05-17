@@ -1,6 +1,6 @@
 -- Mapping helper
 local mapper = function(mode, key, result)
-  vim.api.nvim_set_keymap(mode, key, result, {noremap = true, silent = true})
+	vim.api.nvim_set_keymap(mode, key, result, {noremap = true, silent = true})
 end
 
 -- Define Mapleader
@@ -17,6 +17,8 @@ mapper("n","m",":DashboardFindFile<CR>")
 
 -- Telescope
 mapper("n","tb",":Telescope buffers<CR>")
+mapper("n","<Leader>vrc",":lua require('plugins.telescope').search_dotfiles()<CR>")
+mapper("n","<Leader>p",":lua require('telescope').extensions.media_files.media_files()<CR>")
 
 -- nvim-tree
 mapper("n","e",":NvimTreeToggle<CR>")
@@ -24,5 +26,6 @@ mapper("n","e",":NvimTreeToggle<CR>")
 -- Duplitcate Line
 mapper("n","tt",":t.<CR>")
 
+-- Change Buffer
 mapper("n","<C-M>",":bnext<CR>")
 mapper("n","<C-N>",":bprev<CR>")

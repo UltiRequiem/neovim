@@ -7,13 +7,12 @@ end
 vim.g.mapleader = ' '
 
 -- Save and Close
-mapper("n","w", ":w<CR>")
-mapper("n","q", ":q<CR>")
-mapper("n","<Leader>qq", ":q!<CR>")
+mapper("n","<C-S>", ":w<CR>")
+mapper("n","<C-Q>", ":q<CR>")
 
 -- Dashboard
-mapper("n","f",":DashboardFindWord<CR>")
-mapper("n","m",":DashboardFindFile<CR>")
+mapper("n","<C-A>",":DashboardFindWord<CR>")
+mapper("n","<C-M>",":DashboardFindFile<CR>")
 
 -- Telescope
 mapper("n","tb",":Telescope buffers<CR>")
@@ -21,7 +20,7 @@ mapper("n","<Leader>vrc",":lua require('plugins.telescope').search_dotfiles()<CR
 mapper("n","<Leader>p",":lua require('telescope').extensions.media_files.media_files()<CR>")
 
 -- nvim-tree
-mapper("n","e",":NvimTreeToggle<CR>")
+mapper("n","<F2>",":NvimTreeToggle<CR>")
 
 -- Duplitcate Line
 mapper("n","tt",":t.<CR>")

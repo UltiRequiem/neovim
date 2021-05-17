@@ -1,2 +1,2 @@
-setlocal colorcolumn=120
-setlocal iskeyword+=:,#
+se cc=120
+se isk+=:,#

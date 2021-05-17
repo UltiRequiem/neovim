@@ -1,4 +1,4 @@
-setlocal noexpandtab
-setlocal shiftwidth=2
-setlocal softtabstop=2
-setlocal tabstop=2
+se noet
+se sw=2
+se sts=2
+se ts=2

@@ -1,7 +1,7 @@
-setlocal autoindent
-setlocal expandtab
-setlocal indentkeys-=<:>
-setlocal iskeyword+=-,$,#
-setlocal shiftwidth=2
-setlocal softtabstop=2
-setlocal tabstop=2
+se ai
+se et
+se indk-=<:>
+se isk+=-,$,#
+se sw=2
+se sts=2
+se ts=2

@@ -1,2 +1,7 @@
-set ts=2
-set sw=2  
+setlocal autoindent
+setlocal expandtab
+setlocal indentkeys-=<:>
+setlocal iskeyword+=-,$,#
+setlocal shiftwidth=2
+setlocal softtabstop=2
+setlocal tabstop=2

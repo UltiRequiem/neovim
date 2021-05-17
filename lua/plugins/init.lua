@@ -1,6 +1,6 @@
--- Cool Dasboard
+-- Dashboard: A Cool Dasboard
 require('plugins.dashboard')
--- Telescope: The Fuzy Finder for Neovim
+-- Telescope: The Fuzzy Finder for Neovim
 require('plugins.fuzzy_finder')
 -- Tokyo Storm: Dark and support a lot of Plugins
 require('plugins.theme')

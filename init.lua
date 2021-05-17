@@ -1,6 +1,7 @@
 -- Settings
 require('settings')
--- Plugins
-require('plugins')
 -- Keymappings
 require('keymappings')
+-- Plugins
+require('plugins')
+

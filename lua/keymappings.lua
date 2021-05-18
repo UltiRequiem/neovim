@@ -12,11 +12,11 @@ mapper("n","<C-Q>", ":q<CR>")
 
 -- Dashboard
 mapper("n","<C-A>",":DashboardFindWord<CR>")
-mapper("n","<C-M>",":DashboardFindFile<CR>")
+mapper("n","<C-L>",":DashboardFindFile<CR>")
 
 -- Telescope
 mapper("n","tb",":Telescope buffers<CR>")
-mapper("n","<Leader>vrc",":lua require('plugins.telescope').search_dotfiles()<CR>")
+mapper("n","<Leader>vrc",":lua require('plugins.fuzzy_finder').search_dotfiles()<CR>")
 mapper("n","<Leader>p",":lua require('telescope').extensions.media_files.media_files()<CR>")
 
 -- nvim-tree

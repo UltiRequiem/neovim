@@ -19,7 +19,7 @@ o.undodir = "/tmp/"
 o.backup = false
 o.swapfile = false
 
-vim.cmd [[silent! colorscheme  tokyonight]]
+--vim.cmd [[silent! colorscheme  tokyonight]]
 
 o.shell = "/bin/sh"
 

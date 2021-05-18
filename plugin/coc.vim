@@ -21,4 +21,5 @@ nmap <leader>rn <Plug>(coc-rename)
 nmap <leader>f  <Plug>(coc-format-selected)
 nmap <leader>qf  <Plug>(coc-fix-current)
 
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
 command! -nargs=0 Format :call CocAction('format')

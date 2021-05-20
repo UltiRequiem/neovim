@@ -13,5 +13,15 @@
   "eslint.autoFixOnSave": true,
   // Snippets Stuff
   "snippets.userSnippetsDirectory": "~/.config/nvim/snipetts/ultisnippets/",
-  "snippets.textmateSnippetsRoots":["~/.config/nvim/snipetts/textmate/"]
+  "snippets.textmateSnippetsRoots": ["~/.config/nvim/snipetts/textmate/"],
+  // Git Stuff
+  "git.virtualTextPrefix": "",
+  "git.addGBlameToVitualText": true,
+  "git.addGBlameToBufferVar": true,
+  "git.addedSign.text": "+",
+  // Diagnostics
+  "diagnostic.errorSign": " ",
+  "diagnostic.warningSign": " ",
+  "diagnostic.infoSign": "",
+  "diagnostic.hintSign": " "
 }

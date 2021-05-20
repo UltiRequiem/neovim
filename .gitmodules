@@ -34,3 +34,6 @@
 [submodule "pack/aesthetic/start/lualine.nvim"]
 	path = pack/aesthetic/start/lualine.nvim
 	url = https://github.com/hoob3rt/lualine.nvim
+[submodule "pack/aesthetic/start/todo-comments"]
+	path = pack/aesthetic/start/todo-comments
+	url = https://github.com/folke/todo-comments.nvim

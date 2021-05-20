@@ -6,3 +6,5 @@ require('plugins.fuzzy_finder')
 require('plugins.theme')
 -- Lualine:  An easy to configure Statusline
 require('plugins.statusline')
+-- Todo Comments
+require('plugins.todo')

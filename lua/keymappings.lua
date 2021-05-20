@@ -29,3 +29,6 @@ mapper("n","tt",":t.<CR>")
 -- Change Buffer
 mapper("n","<C-M>",":bnext<CR>")
 mapper("n","<C-N>",":bprev<CR>")
+
+-- CoC
+mapper("n","<Leader>gg",":CocCommand git.browserOpen<CR>")

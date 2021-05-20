@@ -11,4 +11,7 @@
   "eslint.nodePath": "/usr/bin/node",
   "prettier.eslintIntegration": true,
   "eslint.autoFixOnSave": true,
+  // Snippets Stuff
+  "snippets.userSnippetsDirectory": "~/.config/nvim/snipetts/ultisnippets/",
+  "snippets.textmateSnippetsRoots":"~/.config/nvim/snipetts/textmate/"
 }

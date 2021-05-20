@@ -13,5 +13,5 @@
   "eslint.autoFixOnSave": true,
   // Snippets Stuff
   "snippets.userSnippetsDirectory": "~/.config/nvim/snipetts/ultisnippets/",
-  "snippets.textmateSnippetsRoots":"~/.config/nvim/snipetts/textmate/"
+  "snippets.textmateSnippetsRoots":["~/.config/nvim/snipetts/textmate/"]
 }

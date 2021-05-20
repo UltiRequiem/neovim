@@ -1,6 +1,6 @@
--- Settings
+-- Cool Settings
 require('settings')
--- Keymappings
+-- My Keymappings
 require('keymappings')
--- Plugins
+-- A lot of nice Plugins
 require('plugins')

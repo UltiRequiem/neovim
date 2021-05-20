@@ -1,4 +1,5 @@
-nnoremap <Leader>rp :!python %<CR>
+command! -buffer -bar PyRun :w !python3 %
+nnoremap <Leader>rp :PyRun %<CR>
 setl et       
 setl ai      
 setl ts=4

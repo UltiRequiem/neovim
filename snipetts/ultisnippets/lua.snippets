@@ -1,0 +1,29 @@
+snippet for "numeric for loop" b
+for ${1:i}=${2:first},${3:last}${4/^..*/(?0:,:)/}${4:step} do
+	$0
+end
+endsnippet
+
+snippet do "do block"
+do
+	$0
+end
+endsnippet
+
+snippet repeat "repeat loop" b
+repeat
+	$1
+until $0
+endsnippet
+
+snippet while "while loop" b
+while $1 do
+	$0
+end
+endsnippet
+
+snippet if "if statement" b
+if $1 then
+	$0
+end
+endsnippet

@@ -1,0 +1,6 @@
+snippet header "Header comment"
+" File: ${1:`!v expand('%:p:h:t').'/'.expand('%:t')`}
+" Author: ${2}
+" Description: ${3}
+${4:" Last Change: `!v strftime("%b %d, %Y")`}
+endsnippet

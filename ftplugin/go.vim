@@ -1,4 +1,5 @@
-nnoremap <Leader>gr :!go run %<CR>
+command! -buffer -bar GoRun :w !go run %
+nnoremap <Leader>gr :GoRun<CR>
 setl isk+="
 setl noet
 setl sw=4

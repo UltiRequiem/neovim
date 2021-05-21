@@ -21,8 +21,8 @@
   },
   "img": {
     "prefix": "img",
-    "body": "![${1:Picture alt}](${2:URL or Path})",
-    "description": "Image"
+    "body": "![${1}](${2})",
+    "description": "Image path or link"
   },
   "codeblock": {
     "prefix": "codeblock",

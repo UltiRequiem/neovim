@@ -16,7 +16,7 @@
   },
   "link": {
     "prefix": "link",
-    "body": "[${1:${VISUAL:Text}}](${3:https://${2:example.com}})$0",
+    "body": "[${1}](${2})",
     "description": "Link to something"
   },
   "img": {

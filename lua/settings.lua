@@ -1,3 +1,4 @@
+-- Short aliases
 local g = vim.g
 local o = vim.o
 local bo = vim.bo
@@ -5,10 +6,9 @@ local wo = vim.wo
 local cmd = vim.cmd
 local fn = vim.fn
 
-g.mapleader = ' '
-
 -- Syntax on!
 g.syntax_on = true
+o.synmaxcol = 1500
 
 -- Work with several buffers
 o.hidden = true
@@ -163,8 +163,8 @@ o.grepformat='%f:%l:%c:%m,%f:%l:%m'
 -- Important
 o.completeopt="menuone,noinsert,noselect"
 
--- I use Archlinux so it's simply:
-g.python3_host_prog='/usr/bin/python'
+-- Very lazy please
+o.lazyredraw = true
 
 -- Error Format
 o.errorformat = o.errorformat .. ',%f'
@@ -175,5 +175,14 @@ o.clipboard = 'unnamedplus'
 -- Necesary
 cmd('filetype plugin indent on')
 
+-- Enables 24-bit RGB color in TUI
+o.termguicolors = true
+
+-- Set zsh
+o.shell = "usr/bin/zsh"
+
 -- Tokyonight FTW
 cmd [[silent! colorscheme  tokyonight]]
+
+-- I use Archlinux so it's simply:
+g.python3_host_prog='/usr/bin/python'

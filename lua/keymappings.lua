@@ -32,3 +32,6 @@ mapper("n","<C-N>",":bprev<CR>")
 
 -- CoC
 mapper("n","<Leader>gg",":CocCommand git.browserOpen<CR>")
+
+-- Format Code
+mapper("n","<Leader>ff",":Format<CR>")

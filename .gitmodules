@@ -1,8 +1,8 @@
 [submodule "pack/general/start/dashboard-nvim"]
 	path = pack/general/start/dashboard-nvim
 	url = https://github.com/glepnir/dashboard-nvim
-[submodule "pack/general/start/nvim-web-devicons"]
-	path = pack/general/start/nvim-web-devicons
+[submodule "pack/aesthetic/start/nvim-web-devicons"]
+	path = pack/aesthetic/start/nvim-web-devicons
 	url = https://github.com/kyazdani42/nvim-web-devicons
 [submodule "pack/general/start/popup.nvim"]
 	path = pack/general/start/popup.nvim
@@ -13,12 +13,12 @@
 [submodule "pack/general/start/plenary.nvim"]
 	path = pack/general/start/plenary.nvim
 	url = https://github.com/nvim-lua/plenary.nvim
+[submodule "telescope.nvim"]
+	path = telescope.nvim
+	url = https://github.com/nvim-telescope/telescope.nvim
 [submodule "pack/general/start/telescope.nvim"]
 	path = pack/general/start/telescope.nvim
 	url = https://github.com/nvim-telescope/telescope.nvim
-[submodule "pack/aesthetic/start/nvim-web-devicons"]
-	path = pack/aesthetic/start/nvim-web-devicons
-	url = https://github.com/kyazdani42/nvim-web-devicons
 [submodule "pack/general/start/coc.nvim"]
 	path = pack/general/start/coc.nvim
 	url = https://github.com/neoclide/coc.nvim
@@ -37,3 +37,6 @@
 [submodule "pack/aesthetic/start/todo-comments"]
 	path = pack/aesthetic/start/todo-comments
 	url = https://github.com/folke/todo-comments.nvim
+[submodule "pack/language-support/opt/lua"]
+	path = pack/language-support/opt/lua
+	url = https://github.com/folke/lua-dev.nvim

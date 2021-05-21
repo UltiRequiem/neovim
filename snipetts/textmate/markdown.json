@@ -1,0 +1,32 @@
+{
+  "*": {
+    "prefix": "*",
+    "body": "*1*$0",
+    "description": "italics"
+  },
+  "**": {
+    "prefix": "**",
+    "body": "**1**$0",
+    "description": "bold"
+  },
+  "/*": {
+    "prefix": "/*",
+    "body": "<!-- 1 -->$0",
+    "description": "Comment"
+  },
+  "link": {
+    "prefix": "link",
+    "body": "[${1:${VISUAL:Text}}](${3:https://${2:example.com}})$0",
+    "description": "Link to something"
+  },
+  "img": {
+    "prefix": "img",
+    "body": "![${1:Picture alt}](${2:URL or Path})",
+    "description": "Image"
+  },
+  "codeblock": {
+    "prefix": "codeblock",
+    "body": "\\`\\`\\`$1\n$2\n\\`\\`\\`\n$3",
+    "description": "Codeblock"
+  }
+}

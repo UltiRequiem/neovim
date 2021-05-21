@@ -179,7 +179,7 @@ cmd('filetype plugin indent on')
 o.termguicolors = true
 
 -- Set zsh
-o.shell = "usr/bin/zsh"
+o.shell = "/usr/bin/zsh"
 
 -- Tokyonight FTW
 cmd [[silent! colorscheme  tokyonight]]

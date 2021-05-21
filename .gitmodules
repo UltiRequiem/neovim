@@ -37,6 +37,6 @@
 [submodule "pack/aesthetic/start/todo-comments"]
 	path = pack/aesthetic/start/todo-comments
 	url = https://github.com/folke/todo-comments.nvim
-[submodule "pack/language-support/opt/lua"]
-	path = pack/language-support/opt/lua
+[submodule "pack/language-support/opt/luadev"]
+	path = pack/language-support/opt/luadev
 	url = https://github.com/folke/lua-dev.nvim

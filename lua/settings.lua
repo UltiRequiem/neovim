@@ -10,6 +10,11 @@ local fn = vim.fn
 g.syntax_on = true
 o.synmaxcol = 1500
 
+-- Fold Stuff
+wo.foldenable = false
+wo.foldnestmax = 10
+wo.foldmethod = "syntax"
+
 -- Work with several buffers
 o.hidden = true
 
@@ -24,9 +29,11 @@ o.relativenumber = true
 -- Nice Time
 o.updatetime=250
 
--- Don't Wrap
+-- When line is longer than the screen, it continues on the next line
 wo.wrap = false
 o.wrap = false
+-- But don't break words, only 'by words'
+wo.linebreak = true
 
 -- Tabs to Spaces
 o.expandtab = true
@@ -175,14 +182,29 @@ o.clipboard = 'unnamedplus'
 -- Necesary
 cmd('filetype plugin indent on')
 
+-- Visually select and copy without line numbers
+o.mouse = "a"
+
+-- Don't redraw while executing macros
+o.ttyfast = true
+
+-- Set zsh (which zsh)
+o.shell = "/usr/bin/zsh"
+
+-- Highlight the screen line of the cursor with CursorLine
+wo.cursorline = true
+
 -- Enables 24-bit RGB color in TUI
 o.termguicolors = true
 
--- Set zsh
-o.shell = "/usr/bin/zsh"
+-- Dark
+o.background = "dark"
 
 -- Tokyonight FTW
 cmd [[silent! colorscheme  tokyonight]]
+
+-- Add chars to '%'
+bo.matchpairs = "(:),{:},[:],<:>"
 
 -- I use Archlinux so it's simply:
 g.python3_host_prog='/usr/bin/python'

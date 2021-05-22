@@ -1,5 +1,29 @@
+local sorters = require "telescope.sorters"
+local actions = require('telescope.actions')
+local previewers = require "telescope.previewers"
+
 -- Setup Telescope
 require('telescope').setup {
+  defaults ={
+  prompt_position = "top",
+  prompt_prefix = " ❯",
+  file_ignore_patterns = {".git/*", "node_modules","env/*"},
+  shorten_path = true,
+  color_devicons = true,
+  winblend = 20,
+  file_sorter = sorters.get_fzy_sorter,
+  generic_sorter = sorters.get_fzy_sorter,
+  file_previewer = previewers.vim_buffer_cat.new,
+  grep_previewer = previewers.vim_buffer_vimgrep.new,
+  qflist_previewer = previewers.vim_buffer_qflist.new,
+  mappings = {
+      i = {
+        ["<C-j>"] = actions.move_selection_next,
+        ["<C-k>"] = actions.move_selection_previous,
+        ["<Esc>"] = actions.close,
+      },
+    }
+  },
     extensions = {
 	-- Preview media files
         media_files = {

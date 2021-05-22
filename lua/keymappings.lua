@@ -9,7 +9,7 @@ vim.g.mapleader = ' '
 -- Save and Close
 mapper("n","w",":w<CR>")
 mapper("n","q",":q<CR>")
-mapper("n","<C-A>",":qa!<CR>")
+mapper("n","ZA",":wqa!<CR>")
 
 -- Split
 mapper("n","<Leader>v",":vsplit ")

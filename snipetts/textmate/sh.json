@@ -1,0 +1,7 @@
+{
+  "for": {
+    "prefix": "for",
+    "body": "for (( i = 0; i < ${1:10}; i++ )); do\n\t$0\ndone",
+    "description": "for ... done (for)"
+  }
+}

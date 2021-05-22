@@ -11,6 +11,10 @@ mapper("n","w",":w<CR>")
 mapper("n","q",":q<CR>")
 mapper("n","<C-A>",":qa!<CR>")
 
+-- Split
+mapper("n","<Leader>v",":vsplit ")
+mapper("n","<Leader>s",":split ")
+
 -- Dashboard
 mapper("n","<C-F>",":DashboardFindWord<CR>")
 mapper("n","<C-L>",":DashboardFindFile<CR>")

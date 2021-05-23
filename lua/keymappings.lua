@@ -1,6 +1,6 @@
 -- Mapping helper
 local mapper = function(mode, key, result)
-	vim.api.nvim_set_keymap(mode, key, result, {noremap = true, silent = true})
+vim.api.nvim_set_keymap(mode, key, result, {noremap = true, silent = true})
 end
 
 -- Define Mapleader
@@ -36,6 +36,3 @@ mapper("n","<C-N>",":bprev<CR>")
 
 -- CoC
 mapper("n","<Leader>gg",":CocCommand git.browserOpen<CR>")
-
--- Format Code
-mapper("n","<Leader>ff",":Format<CR>")

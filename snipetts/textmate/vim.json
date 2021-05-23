@@ -6,14 +6,14 @@
       "\t$0",
       "endfunction"
     ],
-    "description": "Function"
+    "description": "Function snippet"
   },
   "autocmd": {
     "prefix": ["aut"],
     "body": [
       "autocmd $1 ${2:* $0}"
     ],
-    "description": "Function"
+    "description": "Autocmd snippet"
   },
   "augroup": {
     "prefix": ["aug"],
@@ -23,6 +23,6 @@
       "\tautocmd $2 ${3:* $0}",
       "augroup END"
     ],
-    "description": "Function"
+    "description": "Autogroup snippet"
   }
 }

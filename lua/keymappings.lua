@@ -1,6 +1,6 @@
 -- Mapping helper
 local mapper = function(mode, key, result)
-    vim.api.nvim_set_keymap(mode, key, result, {noremap = true, silent = true})
+  vim.api.nvim_set_keymap(mode, key, result, {noremap = true, silent = true})
 end
 
 -- Define Mapleader
@@ -14,6 +14,12 @@ mapper("n","Q",":qa!<CR>")
 -- Split
 mapper("n","<Leader>v",":vsplit ")
 mapper("n","<Leader>s",":split ")
+
+-- Real Hackers don't use arrow keys
+mapper("n","<Up>","<NOP>")
+mapper("n","<Down>","<NOP>")
+mapper("n","<Left>","<NOP>")
+mapper("n","<Right>","<NOP>")
 
 -- Dashboard
 mapper("n","<C-F>",":DashboardFindWord<CR>")

@@ -1,4 +1,6 @@
--- Dashboard: A Cool Dasboard
+-- packer.nvim
+require('plugins.packer')
+--Dashboard: A Cool Dasboard
 require('plugins.dashboard')
 -- Telescope: The Fuzzy Finder for Neovim
 require('plugins.fuzzy_finder')

@@ -15,12 +15,6 @@ mapper("n","Q",":qa!<CR>")
 mapper("n","<Leader>v",":vsplit ")
 mapper("n","<Leader>s",":split ")
 
--- Real Hackers don't use arrow keys
-mapper("n","<Up>","<NOP>")
-mapper("n","<Down>","<NOP>")
-mapper("n","<Left>","<NOP>")
-mapper("n","<Right>","<NOP>")
-
 -- Dashboard
 mapper("n","<C-F>",":DashboardFindWord<CR>")
 mapper("n","<C-L>",":DashboardFindFile<CR>")
@@ -39,6 +33,3 @@ mapper("n","tt",":t.<CR>")
 -- Change Buffer
 mapper("n","<C-M>",":bnext<CR>")
 mapper("n","<C-N>",":bprev<CR>")
-
--- CoC
-mapper("n","<Leader>gg",":CocCommand git.browserOpen<CR>")

@@ -1,5 +1,4 @@
 -- General Defaults
 require('lsp.config')
-
--- Lenguages
-require('lsp.lua')
+-- Specific language configuration
+require('lsp.languages')

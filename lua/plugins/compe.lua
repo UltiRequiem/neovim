@@ -12,8 +12,21 @@ require'compe'.setup {
     max_kind_width = 100,
     max_menu_width = 100,
     documentation = true,
-
-    source = {path = true, nvim_lsp = true}
+     source = {
+        path = {kind = "   (Path)"},
+        buffer = {kind = "   (Buffer)"},
+        calc = {kind = "   (Calc)"},
+        vsnip = {kind = "   (Snippet)"},
+        nvim_lsp = {kind = "   (LSP)"},
+        nvim_lua = {kind = "  "},
+        spell = {kind = "   (Spell)"},
+        tags = false,
+        vim_dadbod_completion = true,
+        snippets_nvim = {kind = "  "},
+        ultisnips = {kind = "  "},
+        treesitter = {kind = "  "},
+        emoji = {kind = " ﲃ  (Emoji)", filetypes={"markdown", "text"}}
+    }
 }
 
 local t = function(str)
@@ -45,8 +58,3 @@ _G.s_tab_complete = function()
         return t "<S-Tab>"
     end
 end
-
-vim.api.nvim_set_keymap("i", "<Tab>", "v:lua.tab_complete()", {expr = true})
-vim.api.nvim_set_keymap("s", "<Tab>", "v:lua.tab_complete()", {expr = true})
-vim.api.nvim_set_keymap("i", "<S-Tab>", "v:lua.s_tab_complete()", {expr = true})
-vim.api.nvim_set_keymap("s", "<S-Tab>", "v:lua.s_tab_complete()", {expr = true})

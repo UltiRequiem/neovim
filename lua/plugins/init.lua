@@ -18,3 +18,5 @@ require('plugins.compe')
 require('plugins.gitsigns')
 -- Autopairs
 require('plugins.autopairs')
+-- Easy Motion
+require('plugins.hop')

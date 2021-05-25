@@ -11,23 +11,6 @@ mapper("n", "w", ":w<CR>")
 mapper("n", "q", ":q<CR>")
 mapper("n", "Q", ":qa!<CR>")
 
--- Telescope
-mapper("n", "tb", ":Telescope buffers<CR>")
-mapper("n", "<Leader>v",":lua require('plugins.telescope').search_dotfiles()<CR>")
-mapper("n", "<Leader>p", ":Telescope media_files<CR>")
-mapper("n", "<C-F>", ":Telescope live_grep<CR>")
-mapper("n", "<C-P>", ":Telescope find_files<CR>")
-
--- Rnvim
-mapper('n', '-', ':RnvimrToggle<CR>')
-
--- LSP
-mapper("n", "<Leader>s", ":LspInfo<CR>")
--- mapper("n", "gd", ":lua vim.lsp.buf.definition()<CR>")
-
--- File Tree Explorer
-mapper("n", "e", ":NvimTreeToggle<CR>")
-
 -- Duplitcate Line
 mapper("n", "tt", ":t.<CR>")
 
@@ -49,8 +32,29 @@ mapper('n', '<C-j>', '<C-w>j')
 mapper('n', '<C-k>', '<C-w>k')
 mapper('n', '<C-l>', '<C-w>l')
 
--- Compe
-mapper("i", "<Tab>", "v:lua.tab_complete()")
-mapper("s", "<Tab>", "v:lua.tab_complete()")
-mapper("i", "<S-Tab>", "v:lua.s_tab_complete()")
-mapper("s", "<S-Tab>", "v:lua.s_tab_complete()")
+-- Plugins Mappings ↓
+
+-- Telescope
+mapper("n", "<C-F>", ":Telescope live_grep<CR>")
+mapper("n", "<C-P>", ":Telescope find_files<CR>")
+mapper("n", ",v",":lua require('plugins.telescope').search_dotfiles()<CR>")
+mapper("n", ",p", ":Telescope media_files<CR>")
+
+-- Hop.nvim
+mapper("n",",f",":HopWord<CR>")
+mapper("n",",l",":HopLine<CR>")
+mapper("n",",o",":HopPattern<CR>")
+
+-- LSP
+mapper("n", "<Leader>s", ":LspInfo<CR>")
+mapper("n", "<Leader>gd", ":lua vim.lsp.buf.definition()<CR>")
+
+-- File Tree Explorer
+mapper("n", "e", ":NvimTreeToggle<CR>")
+mapper("n",",r",":NvimTreeRefresh<CR>")
+
+-- Completion
+vim.api.nvim_set_keymap("i", "<Tab>", "v:lua.tab_complete()", {expr = true})
+vim.api.nvim_set_keymap("s", "<Tab>", "v:lua.tab_complete()", {expr = true})
+vim.api.nvim_set_keymap("i", "<S-Tab>", "v:lua.s_tab_complete()", {expr = true})
+vim.api.nvim_set_keymap("s", "<S-Tab>", "v:lua.s_tab_complete()", {expr = true})

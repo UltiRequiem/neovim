@@ -8,6 +8,7 @@ return require('packer').startup(function()
     use {"glepnir/dashboard-nvim"}
     use {'kevinhwang91/rnvimr'}
     use {'lewis6991/gitsigns.nvim'}
+    use {'windwp/nvim-autopairs'}
     use {
         'nvim-telescope/telescope.nvim',
         requires = {

@@ -16,3 +16,5 @@ require('plugins.todo')
 require('plugins.compe')
 -- Git
 require('plugins.gitsigns')
+-- Autopairs
+require('plugins.autopairs')

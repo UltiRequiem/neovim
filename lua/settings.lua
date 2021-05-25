@@ -27,7 +27,7 @@ wo.relativenumber = true
 o.relativenumber = true
 
 -- Nice Time
-o.updatetime=250
+o.updatetime = 250
 
 -- When line is longer than the screen, it continues on the next line
 wo.wrap = false
@@ -92,23 +92,12 @@ o.inccommand = 'split'
 
 -- WildIgnore Stuff
 local wildignored = {
-   "tags",
-   "*/__pycache__/*",
-   "build/*",
-   "build.?/*",
-   "*/node_modules/*",
-   "*/env/*",
-   "*.png",
-   "*.jpg",
-   "*.jpeg",
-   "*/migrations/*",
-   "*/.git/*"
+    "tags", "*/__pycache__/*", "build/*", "build.?/*", "*/node_modules/*",
+    "*/env/*", "*.png", "*.jpg", "*.jpeg", "*/migrations/*", "*/.git/*"
 }
 
 local wildignore = ''
-for i=1,#wildignored do
-   wildignore = wildignore .. wildignored[i] .. ','
-end
+for i = 1, #wildignored do wildignore = wildignore .. wildignored[i] .. ',' end
 
 -- Finally, set wildignore...
 o.wildignore = wildignore
@@ -116,59 +105,35 @@ o.wildignore = wildignore
 -- Suffixes Stuff
 -- Get a lower priority when multiple files match a wildcard
 local suffixesed = {
-   ".aux",
-   ".log",
-   ".dvi",
-   ".bbl",
-   ".blg",
-   ".brf",
-   ".cb",
-   ".ind",
-   ".idx",
-   ".ilg",
-   ".inx",
-   ".out",
-   ".toc",
-   ".o",
-   ".obj",
-   ".dll",
-   ".class",
-   ".pyc",
-   ".ipynb",
-   ".so",
-   ".swp",
-   ".zip",
-   ".exe",
-   ".jar",
-   ".gz"
+    ".aux", ".log", ".dvi", ".bbl", ".blg", ".brf", ".cb", ".ind", ".idx",
+    ".ilg", ".inx", ".out", ".toc", ".o", ".obj", ".dll", ".class", ".pyc",
+    ".ipynb", ".so", ".swp", ".zip", ".exe", ".jar", ".gz"
 }
 
 local suffixes = ''
-for i=1,#suffixesed do
-   suffixes = suffixes .. suffixesed[i] .. ','
-end
+for i = 1, #suffixesed do suffixes = suffixes .. suffixesed[i] .. ',' end
 
 -- Finally, set suffixesed...
 o.suffixes = suffixes
 
 --  When set case is ignored when completing file names and directories
 o.wildignorecase = true
-o.wildcharm=26
+o.wildcharm = 26
 
 -- Enables "enhanced mode" of command-line completion... that its <Tab> completion
-o.wildmenu=true
-o.wildmode='longest:full,full'
+o.wildmenu = true
+o.wildmode = 'longest:full,full'
 
 -- Minimal number of screen lines to keep above and below the cursor
-o.scrolloff=3
-o.sidescrolloff=3
+o.scrolloff = 3
+o.sidescrolloff = 3
 
 -- RipGrep needed
-o.grepprg="rg --vimgrep --no-heading --hidden --smart-case --no-ignore-vcs"
-o.grepformat='%f:%l:%c:%m,%f:%l:%m'
+o.grepprg = "rg --vimgrep --no-heading --hidden --smart-case --no-ignore-vcs"
+o.grepformat = '%f:%l:%c:%m,%f:%l:%m'
 
 -- Important
-o.completeopt="menuone,noinsert,noselect"
+o.completeopt = "menuone,noinsert,noselect"
 
 -- Very lazy please
 o.lazyredraw = true
@@ -210,15 +175,15 @@ g.history = 1000
 bo.matchpairs = "(:),{:},[:],<:>"
 
 -- Disable builtin plugins I don't use
-g.loaded_gzip         = 1
-g.loaded_tar          = 1
-g.loaded_tarPlugin    = 1
-g.loaded_zipPlugin    = 1
+g.loaded_gzip = 1
+g.loaded_tar = 1
+g.loaded_tarPlugin = 1
+g.loaded_zipPlugin = 1
 g.loaded_2html_plugin = 1
-g.loaded_netrw        = 1
-g.loaded_netrwPlugin  = 1
-g.loaded_matchparen   = 1
-g.loaded_spec         = 1
+g.loaded_netrw = 1
+g.loaded_netrwPlugin = 1
+g.loaded_matchparen = 1
+g.loaded_spec = 1
 
 -- I use Archlinux so it's simply:
-g.python3_host_prog='/usr/bin/python'
+g.python3_host_prog = '/usr/bin/python'

@@ -45,12 +45,10 @@ require("telescope").load_extension("fzy_native")
 -- Quickly change something on your settings
 local M = {}
 M.search_dotfiles = function()
-    require("telescope.builtin").find_files(
-        {
-            prompt_title = "UltiVim Config",
-            cwd = "$HOME/.config/nvim"
-        }
-    )
+    require("telescope.builtin").find_files({
+        prompt_title = "UltiVim Config",
+        cwd = "$HOME/.config/nvim"
+    })
 end
 
 return M

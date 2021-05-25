@@ -8,4 +8,3 @@ vim.lsp.protocol.CompletionItemKind = {
     "   (EnumMember)", " ﲀ  (Constant)", " ﳤ  (Struct)", "   (Event)",
     "   (Operator)", "   (TypeParameter)"
 }
-

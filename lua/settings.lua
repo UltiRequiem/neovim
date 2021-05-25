@@ -153,7 +153,7 @@ o.mouse = "a"
 -- Don't redraw while executing macros
 o.ttyfast = true
 
--- Set zsh (which zsh)
+-- Set zsh as shell (which zsh)
 o.shell = "/usr/bin/zsh"
 
 -- Highlight the screen line of the cursor with CursorLine
@@ -162,7 +162,7 @@ wo.cursorline = true
 -- Enables 24-bit RGB color in TUI
 o.termguicolors = true
 
--- Dark
+-- Dark Background
 o.background = "dark"
 
 -- Tokyonight FTW

@@ -1,12 +1,12 @@
--- packer.nvim
+-- Mangage and Install Plugis
 require('plugins.packer')
--- Dashboard: A Cool Dasboard
+-- Cool Dasboard
 require('plugins.dashboard')
--- Telescope: The Fuzzy Finder for Neovim
+-- Fast Fuzzy Finder
 require('plugins.fuzzy_finder')
--- Nvim Tree: Fast
+-- Fast File Tree
 require('plugins.file_tree')
--- Tokyo Storm: Dark and support a lot of Plugins
+-- Dark as Gotham
 require('plugins.theme')
 -- Lualine:  An easy to configure Statusline
 require('plugins.statusline')

@@ -4,12 +4,13 @@ return require('packer').startup(function()
         'kyazdani42/nvim-tree.lua',
         requires = {'kyazdani42/nvim-web-devicons', opt = true}
     }
-    use {"folke/todo-comments.nvim", requires = "nvim-lua/plenary.nvim"}
-    use {"glepnir/dashboard-nvim"}
+    use {"folke/todo-comments.nvim"}
+    use {"nvim-lua/plenary.nvim"}
+    use {'nvim-lua/popup.nvim'}
+    use {"glepnir/dashboard-nvim", opt= true}
     use {
         'nvim-telescope/telescope.nvim',
         requires = {
-            {'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'},
             {'nvim-telescope/telescope-fzy-native.nvim'},
             {'nvim-telescope/telescope-node-modules.nvim'},
             {'nvim-telescope/telescope-cheat.nvim'},

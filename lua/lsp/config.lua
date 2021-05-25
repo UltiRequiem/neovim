@@ -1,4 +1,4 @@
--- symbols for autocomplete
+-- Symbols for autocomplete
 vim.lsp.protocol.CompletionItemKind = {
     "   (Text) ", "   (Method)", "   (Function)",
     "   (Constructor)", " ﴲ  (Field)", "[] (Variable)", "   (Class)",

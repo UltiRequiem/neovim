@@ -13,10 +13,11 @@ return require('packer').startup(function()
             {'nvim-telescope/telescope-media-files.nvim'}
         }
     }
-    use "folke/lua-dev.nvim"
+    use {'folke/lua-dev.nvim'}
     use {'hoob3rt/lualine.nvim'}
     use {'hrsh7th/nvim-compe'}
-    use 'neovim/nvim-lspconfig'
+    use {'neovim/nvim-lspconfig'}
     use {'folke/tokyonight.nvim'}
-    use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
+    use {'nvim-treesitter/nvim-treesitter'}
+    use {'ahmedkhalf/lsp-rooter.nvim'}
 end)

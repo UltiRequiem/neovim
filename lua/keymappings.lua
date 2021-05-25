@@ -13,7 +13,7 @@ mapper("n", "Q", ":qa!<CR>")
 
 -- Telescope
 mapper("n", "tb", ":Telescope buffers<CR>")
-mapper("n", "<Leader>v",":lua require('plugins.fuzzy_finder').search_dotfiles()<CR>")
+mapper("n", "<Leader>v",":lua require('plugins.telescope').search_dotfiles()<CR>")
 mapper("n", "<Leader>p", ":Telescope media_files<CR>")
 mapper("n", "<C-F>", ":Telescope live_grep<CR>")
 mapper("n", "<C-P>", ":Telescope find_files<CR>")
@@ -31,6 +31,8 @@ mapper("n", "tt", ":t.<CR>")
 -- Change Buffer
 mapper("n", "<C-M>", ":bnext<CR>")
 mapper("n", "<C-N>", ":bprev<CR>")
+mapper("n", "<TAB>", ":bnext<CR>")
+mapper("n", "<S-TAB>", ":bprevious<CR>")
 
 -- Compe
 mapper("i", "<Tab>", "v:lua.tab_complete()")

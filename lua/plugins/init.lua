@@ -3,14 +3,14 @@ require('plugins.packer')
 -- Cool Dasboard
 require('plugins.dashboard')
 -- Fast Fuzzy Finder
-require('plugins.fuzzy_finder')
+require('plugins.telescope')
 -- Fast File Tree
 require('plugins.file_tree')
 -- Dark as Gotham
-require('plugins.theme')
--- Lualine:  An easy to configure Statusline
-require('plugins.statusline')
+require('plugins.tokyo_night')
+-- Nice Statusline
+require('plugins.lualine')
 -- Todo Comments
 require('plugins.todo')
 -- Completion
-require('plugins.completion')
+require('plugins.compe')

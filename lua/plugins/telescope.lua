@@ -5,6 +5,8 @@ local previewers = require "telescope.previewers"
 -- Setup Telescope
 require("telescope").setup {
     defaults = {
+        find_command = {'rg', '--no-heading', '--with-filename', '--line-number', '--column', '--smart-case'},
+        initial_mode = "insert",
         prompt_position = "top",
         prompt_prefix = " ❯",
         file_ignore_patterns = {".git/*", "node_modules", "env/*"},

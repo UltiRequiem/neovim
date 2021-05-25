@@ -18,6 +18,9 @@ mapper("n", "<Leader>p", ":Telescope media_files<CR>")
 mapper("n", "<C-F>", ":Telescope live_grep<CR>")
 mapper("n", "<C-P>", ":Telescope find_files<CR>")
 
+-- Rnvim
+mapper('n', '-', ':RnvimrToggle<CR>')
+
 -- LSP
 mapper("n", "<Leader>s", ":LspInfo<CR>")
 -- mapper("n", "gd", ":lua vim.lsp.buf.definition()<CR>")
@@ -33,6 +36,18 @@ mapper("n", "<C-M>", ":bnext<CR>")
 mapper("n", "<C-N>", ":bprev<CR>")
 mapper("n", "<TAB>", ":bnext<CR>")
 mapper("n", "<S-TAB>", ":bprevious<CR>")
+
+-- Resize with arrows
+mapper('n', '<C-Up>', ':resize -2<CR>')
+mapper('n', '<C-Down>', ':resize +2<CR>')
+mapper('n', '<C-Left>', ':vertical resize -2<CR>')
+mapper('n', '<C-Right>', ':vertical resize +2<CR>')
+
+-- Better window movement
+mapper('n', '<C-h>', '<C-w>h')
+mapper('n', '<C-j>', '<C-w>j')
+mapper('n', '<C-k>', '<C-w>k')
+mapper('n', '<C-l>', '<C-w>l')
 
 -- Compe
 mapper("i", "<Tab>", "v:lua.tab_complete()")

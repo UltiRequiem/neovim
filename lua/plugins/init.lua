@@ -14,3 +14,5 @@ require('plugins.lualine')
 require('plugins.todo')
 -- Completion
 require('plugins.compe')
+-- Git
+require('plugins.gitsigns')

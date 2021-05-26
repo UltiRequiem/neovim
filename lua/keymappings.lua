@@ -63,12 +63,7 @@ mapper("n", ",p", ":Telescope media_files<CR>")
 
 -- Troubles
 mapper("n", "<leader>xx", "<cmd>Trouble<cr>")
-vim.api.nvim_set_keymap(
-  "n",
-  "<leader>xw",
-  "<cmd>Trouble lsp_workspace_diagnostics<cr>",
-  {silent = true, noremap = true}
-)
+mapper("n", "<leader>xw", "<cmd>Trouble lsp_workspace_diagnostics<cr>")
 mapper("n", "<leader>xd", "<cmd>Trouble lsp_document_diagnostics<cr>")
 mapper("n", "<leader>xl", "<cmd>Trouble loclist<cr>")
 mapper("n", "<leader>xq", "<cmd>Trouble quickfix<cr>")

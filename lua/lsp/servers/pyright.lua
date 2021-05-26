@@ -21,6 +21,7 @@
 --    }
 --  }
 --}
+
 require'lspconfig'.pyright.setup{
   cmd = {"pyright"}
 }

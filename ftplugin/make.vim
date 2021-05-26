@@ -1,4 +1,1 @@
-setl noet
-setl sw=2
-setl sts=2
-setl ts=2
+setl noet sw=2 sts=2 ts=2

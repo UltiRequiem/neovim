@@ -8,4 +8,4 @@ require('lsp.servers.tsserver')
 -- General Lenguage Server
 require('lsp.servers.efm')
 -- Vimscript
-require("lsp.servers.vimls")
+require("lsp.servers.vim")

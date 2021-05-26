@@ -1,5 +1,2 @@
-setl ts=2
-setl sw=2 
-setl com=s1:/*,mb:*,ex:*/ cms&
-setl fo-=t fo+=croql
-setl isk+=-
+setl ts=2 sw=2 
+setl com=s1:/*,mb:*,ex:*/ cms& fo-=t fo+=croql isk+=-

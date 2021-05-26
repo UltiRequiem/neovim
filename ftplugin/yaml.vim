@@ -1,7 +1,1 @@
-setl ai
-setl et
-setl indk-=<:>
-setl isk+=-,$,#
-setl sw=2
-setl sts=2
-setl ts=2
+setl ai et indk-=<:> isk+=-,$,# sw=2 sts=2 ts=2

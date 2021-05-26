@@ -1,9 +1,4 @@
 command! -buffer -bar GoRun :w !go run %
 nnoremap <Leader>gr :GoRun<CR>
-setl isk+="
-setl noet
-setl sw=4
-setl sts=4
-setl ts=4
-setl com=s1:/*,mb:*,ex:*/,://
-setl cms=//\ %s
+setl noet sw=4 sts=4 ts=4
+setl com=s1:/*,mb:*,ex:*/,:// cms=//\ %s isk+="

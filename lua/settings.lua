@@ -160,6 +160,12 @@ o.termguicolors = true
 -- Dark Background
 o.background = "dark"
 
+-- Use Emoji
+o.emoji = true
+
+-- File Format
+o.ff = "unix"
+
 -- Tokyonight FTW
 cmd [[silent! colorscheme  tokyonight]]
 

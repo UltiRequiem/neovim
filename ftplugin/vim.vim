@@ -1,2 +1,1 @@
-setl cc=120
-setl isk+=:,#
+setl cc=120 isk+=:,# ts=2 et

@@ -20,3 +20,5 @@ require('plugins.gitsigns')
 require('plugins.autopairs')
 -- Easy Motion
 require('plugins.hop')
+-- Troubles
+require("plugins.trouble")

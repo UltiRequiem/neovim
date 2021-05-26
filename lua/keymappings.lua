@@ -1,3 +1,4 @@
+---@diagnostic disable: redundant-parameter
 -- Mapping helper
 local mapper = function(mode, key, result)
   vim.api.nvim_set_keymap(mode, key, result, {noremap = true, silent = true})
@@ -59,6 +60,19 @@ mapper("n", "<C-F>", ":Telescope live_grep<CR>")
 mapper("n", "<C-P>", ":Telescope find_files<CR>")
 mapper("n", ",v", ":lua require('plugins.telescope').search_dotfiles()<CR>")
 mapper("n", ",p", ":Telescope media_files<CR>")
+
+-- Troubles
+mapper("n", "<leader>xx", "<cmd>Trouble<cr>")
+vim.api.nvim_set_keymap(
+  "n",
+  "<leader>xw",
+  "<cmd>Trouble lsp_workspace_diagnostics<cr>",
+  {silent = true, noremap = true}
+)
+mapper("n", "<leader>xd", "<cmd>Trouble lsp_document_diagnostics<cr>")
+mapper("n", "<leader>xl", "<cmd>Trouble loclist<cr>")
+mapper("n", "<leader>xq", "<cmd>Trouble quickfix<cr>")
+mapper("n", "gR", "<cmd>Trouble lsp_references<cr>")
 
 -- Hop.nvim
 mapper("n", ",f", ":HopWord<CR>")

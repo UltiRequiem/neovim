@@ -12,6 +12,7 @@ return require("packer").startup(
     use {"windwp/nvim-autopairs"}
     use {"phaazon/hop.nvim"}
     use {"SirVer/ultisnips"}
+    use {"folke/trouble.nvim"}
     use {
       "nvim-telescope/telescope.nvim",
       requires = {

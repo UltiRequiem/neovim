@@ -1,3 +1,5 @@
+-- yay -S lua-language-server
+
 require'lspconfig'.sumneko_lua.setup {
   cmd = {"lua-language-server"},
   on_attach = require'lsp.utils'.common_on_attach,
@@ -17,7 +19,8 @@ require'lspconfig'.sumneko_lua.setup {
         -- Make the server aware of Neovim runtime files
         library = {[vim.fn.expand('$VIMRUNTIME/lua')] = true, [vim.fn.expand('$VIMRUNTIME/lua/vim/lsp')] = true},
         maxPreload = 10000
-      }
+      },
+      {documentFormatting = false},
     }
   }
 }

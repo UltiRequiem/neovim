@@ -13,6 +13,7 @@ return require("packer").startup(
     use {"phaazon/hop.nvim"}
     use {"SirVer/ultisnips"}
     use {"folke/trouble.nvim"}
+    use {"nvim-treesitter/playground"}
     use {
       "nvim-telescope/telescope.nvim",
       requires = {

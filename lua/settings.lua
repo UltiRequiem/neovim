@@ -1,10 +1,5 @@
 -- Short aliases
-local g = vim.g
-local o = vim.o
-local bo = vim.bo
-local wo = vim.wo
-local cmd = vim.cmd
-local fn = vim.fn
+local g,o,bo,wo,cmd,fn = vim.g,vim.o,vim.bo,vim.wo,vim.cmd,vim.fn
 
 -- Syntax on!
 g.syntax_on = true

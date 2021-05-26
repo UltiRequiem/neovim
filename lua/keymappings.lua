@@ -32,8 +32,6 @@ mapper('n', '<C-j>', '<C-w>j')
 mapper('n', '<C-k>', '<C-w>k')
 mapper('n', '<C-l>', '<C-w>l')
 
--- Plugins Mappings ↓
-
 -- LSP
 mapper("n", "<Leader>s", ":LspInfo<CR>")
 mapper('n', 'gD', '<Cmd>lua vim.lsp.buf.declaration()<CR>')
@@ -53,6 +51,8 @@ mapper('n', '[d', '<cmd>lua vim.lsp.diagnostic.goto_prev()<CR>')
 mapper('n', ']d', '<cmd>lua vim.lsp.diagnostic.goto_next()<CR>')
 mapper('n', '<space>q', '<cmd>lua vim.lsp.diagnostic.set_loclist()<CR>')
 mapper("n", "<space>f", "<cmd>lua vim.lsp.buf.formatting()<CR>")
+
+-- Plugins Mappings ↓
 
 -- Telescope
 mapper("n", "<C-F>", ":Telescope live_grep<CR>")

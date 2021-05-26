@@ -16,15 +16,14 @@ require'compe'.setup {
     path = {kind = "   (Path)"},
     buffer = {kind = "   (Buffer)"},
     calc = {kind = "   (Calc)"},
-    vsnip = {kind = "   (Snippet)"},
+    vsnip = false,
     nvim_lsp = {kind = "   (LSP)"},
     nvim_lua = {kind = "  "},
     spell = {kind = "   (Spell)"},
     tags = false,
-    vim_dadbod_completion = true,
     snippets_nvim = {kind = "  "},
-    ultisnips = {kind = "  "},
-    treesitter = {kind = "  "},
+    ultisnips = true,
+    treesitter = false,
     emoji = {kind = " ﲃ  (Emoji)", filetypes={"markdown", "text"}}
   }
 }

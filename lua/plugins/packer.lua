@@ -5,6 +5,7 @@ return require("packer").startup(
     use {"kyazdani42/nvim-tree.lua"}
     use {"kyazdani42/nvim-web-devicons"}
     use {"folke/todo-comments.nvim"}
+    use {"terrortylor/nvim-comment"}
     use {"nvim-lua/plenary.nvim"}
     use {"nvim-lua/popup.nvim"}
     use {"glepnir/dashboard-nvim"}

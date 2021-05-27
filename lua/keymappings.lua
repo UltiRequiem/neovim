@@ -1,4 +1,3 @@
----@diagnostic disable: redundant-parameter
 -- Mapping helper
 local mapper = function(mode, key, result)
   vim.api.nvim_set_keymap(mode, key, result, {noremap = true, silent = true})
@@ -8,9 +7,9 @@ end
 vim.g.mapleader = " "
 
 -- Save and Close
-mapper("n", "w", ":w<CR>")
-mapper("n", "q", ":q<CR>")
-mapper("n", "Q", ":qa!<CR>")
+mapper("n", "<Leader>ww", ":w!<CR>")
+mapper("n", "<Leader>qq", ":q<CR>")
+mapper("n", "mq", ":qa!<CR>")
 
 -- Duplitcate Line
 mapper("n", "tt", ":t.<CR>")
@@ -75,7 +74,7 @@ mapper("n", ",l", ":HopLine<CR>")
 mapper("n", ",o", ":HopPattern<CR>")
 
 -- File Tree Explorer
-mapper("n", "e", ":NvimTreeToggle<CR>")
+mapper("n", "<Leader>e", ":NvimTreeToggle<CR>")
 mapper("n", ",r", ":NvimTreeRefresh<CR>")
 
 -- Completion

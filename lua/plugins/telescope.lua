@@ -1,9 +1,12 @@
-local sorters,actions,previewers = require ("telescope.sorters"),require('telescope.actions'),require("telescope.previewers")
+local sorters, actions, previewers = require("telescope.sorters"), require('telescope.actions'), require("telescope.previewers")
 
 -- Setup Telescope
 require("telescope").setup {
     defaults = {
-        find_command = {'rg', '--no-heading', '--with-filename', '--line-number', '--column', '--smart-case'},
+        find_command = {
+            'rg', '--no-heading', '--with-filename', '--line-number',
+            '--column', '--smart-case'
+        },
         initial_mode = "insert",
         prompt_position = "top",
         prompt_prefix = " ❯",

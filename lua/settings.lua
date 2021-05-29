@@ -1,5 +1,5 @@
 -- Short aliases
-local g,o,bo,wo,cmd,fn = vim.g,vim.o,vim.bo,vim.wo,vim.cmd,vim.fn
+local g, o, bo, wo, cmd, fn = vim.g, vim.o, vim.bo, vim.wo, vim.cmd, vim.fn
 
 -- Syntax on!
 g.syntax_on = true
@@ -136,9 +136,6 @@ o.lazyredraw = true
 -- Error Format
 o.errorformat = o.errorformat .. ',%f'
 
--- Share Clipboard between the system and nvim
-o.clipboard = 'unnamedplus'
-
 -- Necesary
 cmd('filetype plugin indent on')
 
@@ -166,8 +163,7 @@ o.emoji = true
 -- File Format
 o.ff = "unix"
 
--- Tokyonight FTW
-cmd [[silent! colorscheme  tokyonight]]
+cmd [[colorscheme  gruvbox-flat]]
 
 -- Bigger history
 g.history = 1000

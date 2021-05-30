@@ -5,4 +5,4 @@ vim.g.netrw_banner = 0
 -- Set width
 vim.g.netrw_winsize = 18
 -- Open files in a new vertical split
-vim.g.netrw_browse_split = 4
+vim.g.netrw_browse_split = 0

@@ -40,6 +40,3 @@ mapper('n', '<Leader>p', '"+p')
 mapper('n', '<Leader>P', '"+P')
 mapper('v', '<Leader>p', '"+p')
 mapper('v', '<Leader>P', '"+P"`"`"')
-
--- Open netrw
-mapper('n', '<Leader>v', ':Vex<CR>')

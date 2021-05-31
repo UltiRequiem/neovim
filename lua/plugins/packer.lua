@@ -8,14 +8,15 @@ function()
   use {"kyazdani42/nvim-tree.lua"}
   use {"kyazdani42/nvim-web-devicons"}
   use {"glepnir/dashboard-nvim"}
+  use {"nvim-lua/plenary.nvim"}
+  use {"nvim-lua/popup.nvim"}
+ 
   use {
     "nvim-telescope/telescope.nvim",
     requires = {
       {"nvim-telescope/telescope-fzy-native.nvim"},
       {"nvim-telescope/telescope-media-files.nvim"},
-      {"nvim-lua/plenary.nvim"},
-      {"nvim-lua/popup.nvim"}
-    }
+   }
   }
 end
 )

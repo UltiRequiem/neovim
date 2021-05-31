@@ -55,4 +55,3 @@ mapper("n", "<Leader>o", ":HopPattern<CR>")
 
 -- File Tree Explorer
 mapper("n", "<Leader>e", ":NvimTreeToggle<CR>")
-mapper("n", ",r", ":NvimTreeRefresh<CR>")

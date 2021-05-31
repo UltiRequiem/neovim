@@ -1,0 +1,127 @@
+{
+  //--------------- Python Settings ---------------------//
+  "pyright.enable": true,
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.autoSearchPaths": true,
+  "python.analysis.diagnosticMode": "workspace",
+  "python.analysis.stubPath": "typings",
+  "python.analysis.typeshedPaths": [],
+  "python.analysis.diagnosticSeverityOverrides": {},
+  "python.analysis.typeCheckingMode": "strict",
+  "python.analysis.useLibraryCodeForTypes": true,
+  "python.pythonPath": "/usr/bin/python",
+  "python.venvPath": "",
+  "python.formatting.provider": "black",
+  "python.formatting.blackPath": "/usr/bin/black",
+  "python.formatting.blackArgs": [],
+
+  "python.linting.pylintEnabled": true,
+  "python.linting.pylintPath": "/usr/bin/pylint",
+
+  //--------------- Lua Settings ------------------------//
+  "lua.enable": true,
+  "Lua.color.mode": "Semantic",
+  "Lua.completion.callSnippet": "Replace",
+  "Lua.completion.displayContext": 6,
+  "Lua.completion.enable": true,
+  "Lua.completion.keywordSnippet": "Disable",
+  "Lua.completion.workspaceWord": true,
+  "Lua.diagnostics.disable": [],
+  "Lua.diagnostics.enable": true,
+  "Lua.diagnostics.globals": ["vim"],
+  "Lua.diagnostics.neededFileStatus": {},
+  "Lua.diagnostics.severity": {},
+  "Lua.diagnostics.workspaceDelay": 0,
+  "Lua.diagnostics.workspaceRate": 100,
+  "Lua.hint.enable": true,
+  "Lua.hint.paramName": true,
+  "Lua.hint.paramType": true,
+  "Lua.hint.setType": true,
+  "Lua.hover.enable": true,
+  "Lua.hover.fieldInfer": 3000,
+  "Lua.hover.previewFields": 100,
+  "Lua.hover.viewNumber": true,
+  "Lua.hover.viewString": true,
+  "Lua.hover.viewStringMax": 1000,
+  "Lua.intelliSense.searchDepth": 0,
+  "Lua.runtime.nonstandardSymbol": [],
+  "Lua.runtime.path": ["?.lua", "?/init.lua", "?/?.lua"],
+  "Lua.runtime.special": {
+    "include": "require"
+  },
+  "Lua.runtime.unicodeName": true,
+  "Lua.runtime.version": "LuaJIT",
+  "Lua.signatureHelp.enable": true,
+  "Lua.telemetry.enable": false,
+  "Lua.window.progressBar": true,
+  "Lua.window.statusBar": true,
+  "Lua.workspace.ignoreDir": [".vim"],
+  "Lua.workspace.ignoreSubmodules": false,
+  "Lua.workspace.library": {
+    //    "/usr/share/nvim/runtime/lua": true,
+    //    "/usr/share/nvim/runtime/lua/vim/lsp": true
+  },
+  "Lua.workspace.maxPreload": 20,
+  "Lua.workspace.preloadFileSize": 80,
+  "Lua.workspace.useGitIgnore": true,
+  //----------------------------------------------------//
+
+  // Javascript Stuff
+  "eslint.nodePath": "/usr/bin/node",
+  "prettier.eslintIntegration": true,
+  "eslint.autoFixOnSave": true,
+
+  // Snippets Stuff
+  "snippets.priority": 1,
+  "snippets.trace": "verbose",
+  "snippets.enableStatusItem": true,
+  "snippets.extends": {
+    "cpp": ["c"],
+    "javascriptreact": ["javascript"],
+    "typescript": ["javascript"]
+  },
+
+  //------------------- CoC Prefreneces -----------------//
+  "coc.preferences.extensionUpdateCheck": "weekly",
+
+  // Completion Icons
+  "suggest.completionItemKindLabels": {
+    "method": "  ",
+    "function": "  ",
+    "variable": "[]",
+    "field": "  ",
+    "typeParameter": "<>",
+    "constant": "  ",
+    "class": "  ",
+    "interface": " 蘒",
+    "struct": "  ",
+    "event": "  ",
+    "operator": "  ",
+    "module": "  ",
+    "property": "  ",
+    "enum": " 練",
+    "reference": "  ",
+    "keyword": "  ",
+    "file": "  ",
+    "folder": " ﱮ ",
+    "color": "  ",
+    "unit": " 塞 ",
+    "snippet": " ",
+    "text": "  ",
+    "constructor": "  ",
+    "value": "  ",
+    "enumMember": "  ",
+    "default": "  "
+  },
+
+  // Diagnostic Symbols
+  "diagnostic.errorSign": " ",
+  "diagnostic.warningSign": " ",
+  "diagnostic.infoSign": "",
+  "diagnostic.hintSign": " ",
+
+  // Format on Save
+  "coc.preferences.formatOnSaveFiletypes": ["json", "html", "markdown"]
+
+  //----------------------------------------------------//
+}

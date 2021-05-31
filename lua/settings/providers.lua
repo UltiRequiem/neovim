@@ -12,9 +12,9 @@ g.loaded_node_provider = 0
 -- g.node_host_prog = '/usr/bin/node'
 
 -- Python:
-g.loaded_python_provider = 0
-g.loaded_python3_provider = 0
--- g.python3_host_prog = '/usr/bin/python'
+--g.loaded_python_provider = 0
+--g.loaded_python3_provider = 1
+--g.python3_host_prog = '/usr/bin/python'
 
 -- Shell
 g.shell = '/usr/bin/zsh'

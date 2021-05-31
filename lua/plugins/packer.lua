@@ -1,6 +1,7 @@
 return require("packer").startup(
 function()
   use {"wbthomason/packer.nvim"}
+  use {"folke/lua-dev.nvim"}
   use {"neoclide/coc.nvim"}
   use {"hoob3rt/lualine.nvim"}
   use {"tjdevries/colorbuddy.nvim"}
@@ -10,7 +11,6 @@ function()
   use {"glepnir/dashboard-nvim"}
   use {"nvim-lua/plenary.nvim"}
   use {"nvim-lua/popup.nvim"}
- 
   use {
     "nvim-telescope/telescope.nvim",
     requires = {

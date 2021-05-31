@@ -66,10 +66,17 @@
   "Lua.workspace.useGitIgnore": true,
   //----------------------------------------------------//
 
-  // Javascript Stuff
-  "eslint.nodePath": "/usr/bin/node",
+  //-------------- JavaScript and Friends --------------//
+
+  //-------------- HTML and Friends ----------------------//
+  "prettier.formatterPriority": 1,
   "prettier.eslintIntegration": true,
-  "eslint.autoFixOnSave": true,
+  "prettier.requireConfig": false,
+  "prettier.ignorePath": ".prettierignore",
+  "prettier.statusItemText": "Prettier",
+  "prettier.onlyUseLocalVersion": false,
+  "prettier.disableLanguages": [],
+  "prettier.disableSuccessMessage": false,
 
   //-------------- Snippets Stuff ----------------------//
   "snippets.priority": 1,
@@ -85,7 +92,7 @@
   "snippets.autoTrigger": true,
   "snippets.triggerCharacters": [],
   "snippets.loadFromExtensions": true,
-  "snippets.textmateSnippetsRoots": ["~/.config/nvim/snipetts/textmate/"],
+  "snippets.textmateSnippetsRoots": ["~/.config/nvim/snippets/textmate"],
   "snippets.ultisnips.enable": true,
   "snippets.ultisnips.usePythonx": true,
   "snippets.ultisnips.directories": [],

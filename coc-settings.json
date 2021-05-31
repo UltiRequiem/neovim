@@ -67,6 +67,28 @@
   //----------------------------------------------------//
 
   //-------------- JavaScript and Friends --------------//
+  "eslint.packageManager": "npm",
+  "eslint.alwaysShowStatus": false,
+  "eslint.execArgv": [],
+  "eslint.nodeEnv": null,
+  "eslint.nodePath": "/usr/bin/node",
+  "eslint.options": {},
+  "eslint.trace.server": "off",
+  "eslint.run": "onType",
+  "eslint.autoFixOnSave": false,
+  "eslint.quiet": false,
+  "eslint.onIgnoredFiles": "warn",
+  "eslint.workingDirectories": [],
+  "eslint.validate": [],
+  "eslint.probe": ["javascript", "typescript", "html", "markdown"],
+  "eslint.debug": false,
+  "eslint.codeAction.disableRuleComment": {
+    "enable": true,
+    "location": "separateLine"
+  },
+  "eslint.codeActionsOnSave.mode": "problems",
+  "eslint.format.enable": false,
+  "eslint.lintTask.options": [],
 
   //-------------- HTML and Friends ----------------------//
   "prettier.formatterPriority": 1,

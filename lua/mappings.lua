@@ -24,10 +24,10 @@ mapper("n", "<C-Left>", ":vertical resize -2<CR>")
 mapper("n", "<C-Right>", ":vertical resize +2<CR>")
 
 -- Better window movement
-mapper("n", "<C-h>", "<C-w>h")
-mapper("n", "<C-j>", "<C-w>j")
-mapper("n", "<C-k>", "<C-w>k")
-mapper("n", "<C-l>", "<C-w>l")
+mapper("n", "<Left>", "<C-w>h")
+mapper("n", "<Down>", "<C-w>j")
+mapper("n", "<Up>", "<C-w>k")
+mapper("n", "<Right>", "<C-w>l")
 
 -- Copy to OS clipboard.
 mapper('n', '<Leader>y', '"+y')

@@ -71,15 +71,32 @@
   "prettier.eslintIntegration": true,
   "eslint.autoFixOnSave": true,
 
-  // Snippets Stuff
+  //-------------- Snippets Stuff ----------------------//
   "snippets.priority": 1,
   "snippets.trace": "verbose",
-  "snippets.enableStatusItem": true,
+  "snippets.enableStatusItem": false,
   "snippets.extends": {
     "cpp": ["c"],
     "javascriptreact": ["javascript"],
     "typescript": ["javascript"]
   },
+  "snippets.userSnippetsDirectory": "~/.config/nvim/snippets/ultisnippets",
+  "snippets.shortcut": "S",
+  "snippets.autoTrigger": true,
+  "snippets.triggerCharacters": [],
+  "snippets.loadFromExtensions": true,
+  "snippets.textmateSnippetsRoots": ["~/.config/nvim/snipetts/textmate/"],
+  "snippets.ultisnips.enable": true,
+  "snippets.ultisnips.usePythonx": true,
+  "snippets.ultisnips.directories": [],
+  "snippets.snipmate.enable": true,
+  "snippets.snipmate.author": "Eliaz Bobadilla",
+
+  //------------------ Auto Pairs -----------------------//
+  "pairs.disableLanguages": [],
+  "pairs.enableCharacters": ["(", "[", "{", "<", "'", "\"", "`"],
+  "pairs.enableBackspace": true,
+  "pairs.alwaysPairCharacters": [],
 
   //------------------- CoC Prefreneces -----------------//
   "coc.preferences.extensionUpdateCheck": "weekly",
@@ -113,6 +130,8 @@
     "enumMember": "  ",
     "default": "  "
   },
+
+  "coc.preferences.colorSupport": true,
 
   // Diagnostic Symbols
   "diagnostic.errorSign": " ",

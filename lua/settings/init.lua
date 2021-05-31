@@ -2,3 +2,5 @@
 require("settings.providers")
 -- General Settings
 require("settings.general")
+-- Aesthetic configuration
+require("settings.aesthetic")

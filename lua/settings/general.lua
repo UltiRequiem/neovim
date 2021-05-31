@@ -12,22 +12,8 @@ wo.foldmethod = "syntax"
 -- Work with several buffers
 o.hidden = true
 
--- Numbers
-wo.number = true
-o.number = true
-
--- Relative Numbers!
-wo.relativenumber = true
-o.relativenumber = true
-
 -- Nice Time
 o.updatetime = 250
-
--- When line is longer than the screen, it continues on the next line
-wo.wrap = false
-o.wrap = false
--- But don't break words, only 'by words'
-wo.linebreak = true
 
 -- Tabs to Spaces
 o.expandtab = true
@@ -54,12 +40,6 @@ o.ignorecase = true
 
 -- Override the 'ignorecase' option if the search pattern contains upper case characters
 o.smartcase = true
-
--- Will put the new window below the currentone. (:sp)
-o.splitbelow = true
-
--- Will put the new window right of the current one. (:vs)
-o.splitright = true
 
 -- Swapfiles are nice
 o.swapfile = true
@@ -141,9 +121,6 @@ o.mouse = "a"
 
 -- Don't redraw while executing macros
 o.ttyfast = true
-
--- Highlight the screen line of the cursor with CursorLine
-wo.cursorline = true
 
 -- Enables 24-bit RGB color in TUI
 o.termguicolors = true

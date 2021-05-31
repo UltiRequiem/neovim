@@ -1,0 +1,6 @@
+require("plugins.packer")
+require("plugins.colors")
+require("plugins.dashboard")
+require("plugins.lualine")
+require("plugins.hop")
+require("plugins.telescope")

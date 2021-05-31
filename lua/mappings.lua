@@ -39,3 +39,20 @@ mapper('n', '<Leader>p', '"+p')
 mapper('n', '<Leader>P', '"+P')
 mapper('v', '<Leader>p', '"+p')
 mapper('v', '<Leader>P', '"+P"`"`"')
+
+-- Plugins Mappings ↓
+
+-- Telescope
+mapper("n", "<C-F>", ":Telescope live_grep<CR>")
+mapper("n", "<C-P>", ":Telescope find_files<CR>")
+mapper("n", ",v", ":lua require('plugins.telescope').search_dotfiles()<CR>")
+mapper("n", ",p", ":Telescope media_files<CR>")
+
+-- Hop.nvim
+mapper("n", "<Leader>f", ":HopWord<CR>")
+mapper("n", "<Leader>l", ":HopLine<CR>")
+mapper("n", "<Leader>o", ":HopPattern<CR>")
+
+-- File Tree Explorer
+mapper("n", "<Leader>e", ":NvimTreeToggle<CR>")
+mapper("n", ",r", ":NvimTreeRefresh<CR>")

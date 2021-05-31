@@ -17,4 +17,4 @@ g.loaded_python3_provider = 0
 -- g.python3_host_prog = '/usr/bin/python'
 
 -- Shell
-g.shell = "/usr/bin/zsh"
+g.shell = '/usr/bin/zsh'

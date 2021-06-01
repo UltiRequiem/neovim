@@ -69,6 +69,17 @@
 
   //-------------- JavaScript and Friends --------------//
 
+  // DocThis
+  "docthis.returnsTag": true,
+  "docthis.includeAuthorTag": true,
+  "docthis.authorName": "UltiRequiem",
+  "docthis.includeDateTag": false,
+  "docthis.dateTagFormat": "YYYY-MM-DD",
+  "docthis.includeTypes": true,
+  "docthis.includeMemberOfOnClassMembers": true,
+  "docthis.includeMemberOfOnInterfaceMembers": true,
+  "docthis.includeDescriptionTag": false,
+
   // TSSERVER //
   "tsserver.enable": true,
   "tsserver.locale": null,
@@ -85,6 +96,13 @@
   "tsserver.watchOptions": {},
   "tsserver.reportStyleChecksAsWarnings": true,
   "tsserver.implicitProjectConfig.checkJs": false,
+  "tsserver.implicitProjectConfig.experimentalDecorators": true,
+  "tsserver.disableAutomaticTypeAcquisition": false,
+  "tsserver.useBatchedBufferSync": true,
+  "typescript.updateImportsOnFileMove.enable": true,
+  "typescript.implementationsCodeLens.enable": true,
+  "typescript.referencesCodeLens.enable": true,
+  "typescript.preferences.importModuleSpecifier": "auto",
 
   // ESLINT //
   "eslint.packageManager": "npm",
@@ -143,6 +161,33 @@
   "snippets.snipmate.enable": true,
   "snippets.snipmate.author": "Eliaz Bobadilla",
 
+  //------------------ Git -----------------------//
+  "git.addGBlameToVirtualText": true,
+  "git.semanticCommit.scope": false,
+
+  //------------------ List -----------------------//
+  "lists.disabledLists": [],
+  "list.source.files.command": "",
+  "list.source.files.args": [],
+  "list.source.files.excludePatterns": [],
+  "list.source.mru.maxLength": 50,
+  "list.source.mru.ignoreGitIgnore": true,
+  "list.source.mru.excludePatterns": ["**/.git/*", "/tmp/*"],
+  "list.source.grep.useLiteral": true,
+  "list.source.grep.command": "rg --vimgrep --no-heading --hidden --smart-case --no-ignore-vcs",
+  "list.source.grep.maxColumns": 300,
+
+  //------------------ Integrated Terminal ---------------//
+  "terminal.REPLMappings": {
+    "c": "cling",
+    "cpp": "cling",
+    "javascript": "node",
+    "typescript": "ts-node",
+    "python": "python"
+  },
+  "terminal.shellPath": "/usr/bin/zsh",
+  "terminal.shellArgs": [],
+
   //------------------ Auto Pairs -----------------------//
   "pairs.disableLanguages": [],
   "pairs.enableCharacters": ["(", "[", "{", "<", "'", "\"", "`"],
@@ -151,6 +196,18 @@
 
   //------------------- CoC Prefreneces -----------------//
   "coc.preferences.extensionUpdateCheck": "weekly",
+  "signature.target": "echo",
+  "suggest.timeout": 5000,
+  "suggest.defaultSortMethod": "none",
+  "codeLens.enable": true,
+  "coc.source.around.firstMatch": false,
+  "coc.source.file.ignoreHidden": false,
+  "diagnostic.format": "%message [%source]",
+  "diagnostic.virtualText": true,
+  "diagnostic.checkCurrentLine": true,
+  "diagnostic.separateRelatedInformationAsDiagnostics": true,
+  "coc.preferences.willSaveHandlerTimeout": 750,
+  "coc.preferences.enableMarkdown": true,
 
   // Completion Icons
   "suggest.completionItemKindLabels": {
@@ -190,7 +247,8 @@
   "diagnostic.infoSign": "",
   "diagnostic.hintSign": " ",
 
-  // Format on Save
+  // Format
+  "coc.preferences.formatOnType": true,
   "coc.preferences.formatOnSaveFiletypes": ["json", "html", "markdown"]
 
   //----------------------------------------------------//

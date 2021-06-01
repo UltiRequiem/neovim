@@ -16,9 +16,6 @@ inoremap <silent><expr> <c-space> coc#refresh()
 inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
                               \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
 
-"nmap <silent> <Left> <Plug>(coc-diagnostic-prev)
-"nmap <silent> <> <Plug>(coc-diagnostic-next)
-
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
@@ -57,8 +54,6 @@ nmap <leader>qf  <Plug>(coc-fix-current)
 
 command! -nargs=? Fold :call CocAction('fold', <f-args>)
 
-command! -nargs=0 OR   :call CocAction('runCommand', 'editor.action.organizeImport')
-
 nnoremap <silent><nowait> <space>r  :<C-u>CocList diagnostics<cr>
 
 " Use <C-l> for trigger snippet expand.
@@ -75,3 +70,24 @@ imap <C-j> <Plug>(coc-snippets-expand-jump)
 
 nnoremap <silent><nowait> <leader>t :CocCommand terminal.Toggle<CR> 
 nnoremap <silent><nowait> <leader>r :CocCommand terminal.REPL<CR> 
+
+inoremap <C-c> <Esc>
+hi CocCodeLens guifg=White
+
+
+nnoremap <silent><nowait> <leader>b :Buffers<CR> 
+
+command! -nargs=0 C             CocConfig
+command! -nargs=0 L             CocListResume
+command! -nargs=0 -range D      CocCommand
+command! -nargs=0 Prettier      CocCommand prettier.formatFile
+command! -nargs=0 CocOutput     CocCommand workspace.showOutput
+
+command! -nargs=0 Todos         CocList -A --normal grep -e TODO|FIXME
+command! -nargs=0 Status        CocList -A --normal gstatus
+command! -nargs=0 Buffers       CocList -A --normal buffers
+command! -nargs=+ Find          exe 'CocList -A --normal grep --smart-case '.<q-args>
+command! -nargs=0 Fold          call CocAction('fold')
+command! -nargs=0 GitChunkUndo  call CocAction('runCommand', 'git.chunkUndo')
+command! -nargs=0 OR            call CocAction('runCommand', 'editor.action.organizeImport')
+command! -nargs=0 Tsc           call CocAction('runCommand', 'tsserver.watchBuild')

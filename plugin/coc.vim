@@ -41,7 +41,7 @@ nmap <leader>rn <Plug>(coc-rename)
 
 command! -nargs=0 Format :call CocAction('format')
 
-nmap <F3>f :Format<CR>
+nmap <F3> :Format<CR>
 
 xmap <leader>a  <Plug>(coc-codeaction-selected)<Enter>
 nmap <leader>a  <Plug>(coc-codeaction-selected)<Enter>

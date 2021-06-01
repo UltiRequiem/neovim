@@ -44,11 +44,11 @@ nmap <leader>rn <Plug>(coc-rename)
 
 command! -nargs=0 Format :call CocAction('format')
 
-nmap ,f  :Format<Enter>
+nmap <Leader>f :Format<CR>
 
 xmap <leader>a  <Plug>(coc-codeaction-selected)<Enter>
 nmap <leader>a  <Plug>(coc-codeaction-selected)<Enter>
-nmap <leader>d :CocDiagnostics<Enter>
+nmap <leader>d :CocDiagnostics<CR>
 
 " Remap keys for applying codeAction to the current buffer.
 nmap <leader>ca  <Plug>(coc-codeaction)
@@ -72,3 +72,6 @@ let g:coc_snippet_prev = '<c-k>'
 
 " Use <C-j> for both expand and jump (make expand higher priority.)
 imap <C-j> <Plug>(coc-snippets-expand-jump)
+
+nnoremap <silent><nowait> <leader>t :CocCommand terminal.Toggle<CR> 
+nnoremap <silent><nowait> <leader>r :CocCommand terminal.REPL<CR> 

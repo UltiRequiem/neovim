@@ -64,9 +64,29 @@
   "Lua.workspace.maxPreload": 20,
   "Lua.workspace.preloadFileSize": 80,
   "Lua.workspace.useGitIgnore": true,
+
   //----------------------------------------------------//
 
   //-------------- JavaScript and Friends --------------//
+
+  // TSSERVER //
+  "tsserver.enable": true,
+  "tsserver.locale": null,
+  "tsserver.typingsCacheLocation": "",
+  "tsserver.formatOnType": true,
+  "tsserver.enableJavascript": true,
+  "tsserver.maxTsServerMemory": 0,
+  "tsserver.tsdk": "",
+  "tsserver.npm": "",
+  "tsserver.log": "off",
+  "tsserver.trace.server": "off",
+  "tsserver.pluginPaths": [],
+  "tsserver.debugPort": 0,
+  "tsserver.watchOptions": {},
+  "tsserver.reportStyleChecksAsWarnings": true,
+  "tsserver.implicitProjectConfig.checkJs": false,
+
+  // ESLINT //
   "eslint.packageManager": "npm",
   "eslint.alwaysShowStatus": false,
   "eslint.execArgv": [],
@@ -89,6 +109,8 @@
   "eslint.codeActionsOnSave.mode": "problems",
   "eslint.format.enable": false,
   "eslint.lintTask.options": [],
+
+  //----------------------------------------------------//
 
   //-------------- HTML and Friends ----------------------//
   "prettier.formatterPriority": 1,

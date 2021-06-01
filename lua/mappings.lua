@@ -49,7 +49,7 @@ mapper("n", ",v", ":lua require('plugins.telescope').search_dotfiles()<CR>")
 mapper("n", ",p", ":Telescope media_files<CR>")
 
 -- Hop.nvim
-mapper("n", "<Leader>f", ":HopWord<CR>")
+mapper("n", ",f", ":HopWord<CR>")
 mapper("n", "<Leader>l", ":HopLine<CR>")
 mapper("n", "<Leader>o", ":HopPattern<CR>")
 

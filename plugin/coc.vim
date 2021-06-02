@@ -54,7 +54,7 @@ nmap <leader>qf  <Plug>(coc-fix-current)
 
 command! -nargs=? Fold :call CocAction('fold', <f-args>)
 
-nnoremap <silent><nowait> <space>r  :<C-u>CocList diagnostics<cr>
+nnoremap <silent><nowait> <space>j  :<C-u>CocList diagnostics<cr>
 
 " Use <C-l> for trigger snippet expand.
 imap <C-l> <Plug>(coc-snippets-expand)
@@ -69,7 +69,7 @@ let g:coc_snippet_prev = '<c-k>'
 imap <C-j> <Plug>(coc-snippets-expand-jump)
 
 nnoremap <silent><nowait> <leader>t :CocCommand terminal.Toggle<CR> 
-nnoremap <silent><nowait> <leader>r :CocCommand terminal.REPL<CR> 
+nnoremap <silent><nowait> <leader>g :CocCommand terminal.REPL<CR> 
 
 inoremap <C-c> <Esc>
 hi CocCodeLens guifg=White

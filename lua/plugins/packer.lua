@@ -3,6 +3,7 @@ function()
   use {"wbthomason/packer.nvim"}
   use {"folke/lua-dev.nvim"}
   use {"neoclide/coc.nvim"}
+  use {"fatih/vim-go", ft = {"go"},}
   use {"hoob3rt/lualine.nvim"}
   use {"tjdevries/colorbuddy.nvim"}
   use {"phaazon/hop.nvim"}

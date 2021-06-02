@@ -313,7 +313,7 @@
   "list.source.mru.ignoreGitIgnore": true,
   "list.source.mru.excludePatterns": ["**/.git/*", "/tmp/*"],
   "list.source.grep.useLiteral": true,
-  "list.source.grep.command": "rg --vimgrep --no-heading --hidden --smart-case --no-ignore-vcs",
+  "list.source.grep.command": "rg",
   "list.source.grep.maxColumns": 300,
 
   //------------------ Integrated Terminal ---------------//

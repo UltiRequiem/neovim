@@ -1,6 +1,6 @@
 require("utils")
 
-g.nvim_tree_side = "left"
+g.nvim_tree_side = "right"
 g.nvim_tree_width = 30
 g.nvim_tree_auto_close = 0
 g.nvim_tree_quit_on_open = 1

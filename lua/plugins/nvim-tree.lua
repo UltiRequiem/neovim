@@ -2,8 +2,9 @@ require("utils")
 
 g.nvim_tree_side = "right"
 g.nvim_tree_width = 30
+g.nvim_tree_lsp_diagnostics = 1
 g.nvim_tree_auto_close = 0
-g.nvim_tree_quit_on_open = 1
+g.nvim_tree_quit_on_open = 0
 g.nvim_tree_hide_dotfiles = 1
 g.nvim_tree_width_allow_resize = true
 g.nvim_tree_disable_netrw = 1
@@ -24,3 +25,4 @@ g.nvim_tree_icons = {
   },
   folder = {default = "", open = ""}
 }
+cmd("highlight NvimTreeSymlink guifg=red gui=bold,underline")

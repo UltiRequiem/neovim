@@ -2,7 +2,6 @@ return require("packer").startup(
 function()
   use {"wbthomason/packer.nvim"}
   use {'tjdevries/gruvbuddy.nvim'}
-  use {'UltiRequiem/blinds-nvim.lua'}
   use {"folke/lua-dev.nvim"}
   use {"neoclide/coc.nvim"}
   use {"hoob3rt/lualine.nvim"}

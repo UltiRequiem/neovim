@@ -1,4 +1,4 @@
-# Check [UltiRequiem/neovim](https://github.com/UltiRequiem/UltiVim)
+# Check [UltiRequiem/UltiVim](https://github.com/UltiRequiem/UltiVim)
 
 # UltiVim
 
